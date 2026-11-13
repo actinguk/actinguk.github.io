@@ -6,7 +6,7 @@ Baseline: bf305e8a0cd8beb924cae3f79d6cc38b5548cf51. Backup: backup/pre-audit-imp
 - Five crawlable subject hubs (training, agents, casting, headshots, guides), new homepage topic copy, new editorial pages (about, authors, contact, privacy, methodology, editorial policy).
 - Existing eight career guides expanded; ten agency-specific published submission policies and a dated comparison table with direct official sources; agency application checklist and more targeted London-agent advice; direct source links restored from existing records or researched official sources. Anecdotal references without an identifiable source remain explicitly non-authoritative.
 - All 39 coach profiles use WebPage rather than ProfilePage and state the editorial assessment is based on published material, not firsthand lessons. Links use cited provider domains or published professional listings; individual availability remains unverified.
-- Journal collection metadata, headshot disclosure and link consolidation, sitemap additions, same-origin CSS preserved, custom 404.
+- Journal collection metadata, headshot reference link consolidation, sitemap additions, same-origin CSS preserved, custom 404.
 - Shared template and source JSON for new hubs and editorial pages; `python3 scripts/build_sections.py` regenerates them. Existing articles retain their URLs and static HTML; full migration to a templated editorial database is a separate maintenance task.
 - Run `python3 scripts/validate_seo.py` before publishing. The GitHub workflow checks static metadata, URLs, fragments, sitemap, JSON-LD, images and crawler directives. It cannot check live network responses, external URL availability, or browser rendering.
 

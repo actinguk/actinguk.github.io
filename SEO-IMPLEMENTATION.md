@@ -12,7 +12,7 @@ Baseline: bf305e8a0cd8beb924cae3f79d6cc38b5548cf51. Backup: backup/pre-audit-imp
 
 ## Outstanding / external dependency
 - Verify ownership in Google Search Console and Bing Webmaster Tools and submit sitemap; no account verification or search indexing has been claimed.
-- Post-deployment GitHub Actions now tests live DNS, HTTPS, redirects, assets, every sitemap URL and desktop/mobile browser behavior. Real-user Core Web Vitals, full keyboard/accessibility audit and search-engine crawl logs still require measurement.
+- GitHub Actions on main waits for the expected public sitemap and Agents hub, then tests live DNS, HTTPS, redirects, assets, every sitemap URL and desktop/mobile browser behavior. Real-user Core Web Vitals, full keyboard/accessibility audit and search-engine crawl logs still require measurement.
 - Ten acting agency submission routes were checked and documented; Curtis Brown's actor-specific current instructions could not be confirmed. Independently recheck remaining providers' current submission pages, status, prices and availability; source links are not proof of ongoing availability. Publish original agency survey, cost-of-acting research and expanded profiles only after source collection and verification.
 - IndexNow key and post-deployment notification script added. Submission is attempted only after successful live HTTPS verification; inspect the workflow for actual acceptance.
 - Migrate existing external photographs only after authorised source image files are obtained; no image replacement or downloads attempted. Social metadata uses existing local portrait.

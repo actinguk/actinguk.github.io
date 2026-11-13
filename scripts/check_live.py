@@ -26,13 +26,16 @@ def check(url):
 print("DNS:",sorted({x[4][0] for x in socket.getaddrinfo("actinguk.com",443)}))
 # Wait only for the expected release to appear, not an arbitrary time.
 expected=(ROOT/"sitemap.xml").read_bytes()
-for attempt in range(6):
+expected_agents=(ROOT/"agents/index.html").read_bytes()
+for attempt in range(12):
     try:
         _,final,_,body=fetch(BASE+"/sitemap.xml")
-        if body==expected: break
+        if body==expected:
+            _,_,_,agents=fetch(BASE+"/agents/")
+            if agents==expected_agents: break
         print("Waiting for expected sitemap",attempt+1)
     except Exception as e: print("Live sitemap attempt",attempt+1,str(e))
-    time.sleep(8)
+    time.sleep(10)
 else:
     sys.exit("Expected deployment not available over verified HTTPS")
 for u in ["http://actinguk.com/","https://www.actinguk.com/","http://www.actinguk.com/","https://actinguk.github.io/"]:

@@ -14,7 +14,7 @@ with urlopen(key_url,timeout=20) as r:
 diff=subprocess.check_output(["git","diff","--name-only","HEAD^","HEAD"],cwd=ROOT,text=True).splitlines()
 paths=[p for p in diff if p.endswith(".html") and p!="404.html" and p.split("/")[0] not in ("templates","content","scripts",".github")]
 urls=sorted(set(BASE+"/"+(p[:-10] if p.endswith("index.html") else p) for p in paths))
-if KEY+".txt" in diff or "Initial IndexNow" in subprocess.check_output(["git","log","-1","--format=%s"],cwd=ROOT,text=True):
+if KEY+".txt" in diff or "Initial IndexNow" in subprocess.check_output(["git","log","-2","--format=%s"],cwd=ROOT,text=True):
     ns={"s":"http://www.sitemaps.org/schemas/sitemap/0.9"}
     urls=sorted(e.text for e in ET.parse(ROOT/"sitemap.xml").findall(".//s:loc",ns))
 if not urls: print("No changed public HTML URLs.");sys.exit(0)

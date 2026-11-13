@@ -5,7 +5,7 @@ import json
 from html import unescape
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://actinguk.com"
-template = (ROOT / "templates/section.html").read_text(encoding="utf-8")
+template = (ROOT / "templates/section.tpl").read_text(encoding="utf-8")
 records = json.loads((ROOT / "content/sections.json").read_text(encoding="utf-8"))
 for slug, record in records.items():
     url = BASE + "/" + slug + "/"

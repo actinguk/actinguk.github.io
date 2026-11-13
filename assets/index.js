@@ -194,7 +194,7 @@ $("guideGrid").onclick=e=>{const b=e.target.closest("[data-open]");if(b)openGuid
 // Personal career checklist.
 const tasks = [
   ["goal","Choose one acting goal for this month","guides/how-to-become-an-actor-in-the-uk.html","Starting out"],
-  ["headshots","Get your first professional headshots (or check your current ones)","journal/first-headshots.html","Headshot guide"],
+  ["headshots","Review or update your professional acting headshots","journal/acting-headshots-london.html","Headshot guide"],
   ["cv","Review your headshot and CV","guides/headshots-cvs-and-showreels.html","Build your profile"],
   ["research","Research training and suitable casting options","directory.html#casting","Casting directory"],
   ["safety","Review contracts, rates, work permissions and casting safety","journal/scams.html","Stay safe"],

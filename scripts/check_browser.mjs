@@ -6,7 +6,7 @@ for(const width of [1440,390]){
  const page=await browser.newPage({viewport:{width,height:900}});
  await page.addInitScript(()=>{window.__seoPerf={lcp:0,cls:0};try{new PerformanceObserver(list=>{for(const e of list.getEntries())window.__seoPerf.lcp=e.startTime}).observe({type:'largest-contentful-paint',buffered:true});new PerformanceObserver(list=>{for(const e of list.getEntries())if(!e.hadRecentInput)window.__seoPerf.cls+=e.value}).observe({type:'layout-shift',buffered:true});}catch(e){}});
  page.on('pageerror',e=>errors.push('JS '+e.message));
- for(const path of ['/','/resources/training/rada.html','/resources/training/lamda.html','/training/','/agents/','/casting/','/guides/','/headshots/','/coaches.html','/journal.html']){
+ for(const path of ['/','/resources/training/rada.html','/resources/training/lamda.html','/training/','/agents/','/casting/','/guides/','/headshots/','/journal/acting-headshots-london.html','/coaches.html','/journal.html']){
   await page.goto(base+path,{waitUntil:'domcontentloaded',timeout:30000});
   await page.waitForSelector('h1');
   if(path==='/'||path.includes('/rada.html')){await page.waitForLoadState('load');await page.waitForTimeout(300);const perf=await page.evaluate(()=>({lcp:Math.round(window.__seoPerf?.lcp||0),cls:window.__seoPerf?.cls||0,domReady:Math.round(performance.getEntriesByType('navigation')[0]?.domContentLoadedEventEnd||0)}));console.log('LAB',width,path,JSON.stringify(perf));}

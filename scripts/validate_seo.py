@@ -7,6 +7,7 @@ from collections import defaultdict
 import json, xml.etree.ElementTree as ET, sys
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://actinguk.com"
+REDIRECTS={"journal/first-headshots.html":"https://actinguk.com/journal/acting-headshots-london.html"}
 EXCLUDE={"templates","content","scripts",".github",".git"}
 class Page(HTMLParser):
     def __init__(self):
@@ -54,7 +55,13 @@ for p,x in pages.items():
     if len(x.desc)!=1 or not x.desc[0].strip(): err(p,"missing or duplicate description")
     if x.lang!="en-GB": err(p,"missing en-GB language")
     if not x.viewport: err(p,"missing viewport")
-    if x.canon!=[url_for(p)]: err(p,f"canonical mismatch: {x.canon}")
+    if x.canon!=[REDIRECTS.get(p,url_for(p))]: err(p,f"canonical mismatch: {x.canon}")
+    if p in REDIRECTS:
+        raw=(ROOT/p).read_text(encoding="utf-8")
+        target=REDIRECTS[p].removeprefix(BASE)
+        if f'http-equiv="refresh" content="0; url={target}"' not in raw: err(p,"missing immediate redirect")
+        if not (ROOT/target.lstrip("/")).is_file(): err(p,"missing redirect destination")
+        continue
     if x.duplicate_ids: err(p,f"duplicate IDs: {sorted(x.duplicate_ids)}")
     for j in x.jsonld:
         try: json.loads(j)

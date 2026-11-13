@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "articles": [
+    {
+      "title": "Spotlight fees are heading back to court. What does it mean for actors?",
+      "description": "Equity’s appeal is set for 24 November. Here is what is at stake for working actors.",
+      "url": "/news/casting-fees-appeal.html",
+      "date": "2026-11-13",
+      "category": "Industry rights",
+      "source": "https://www.equity.org.uk/news/2026/equity-members-to-take-action-on-casting-directory-fees"
+    },
+    {
+      "title": "Bradford venue faces closure",
+      "description": "Theatre in the Mill is due to close on 31 March 2027.",
+      "url": "/news/bradford-venue-closure.html",
+      "date": "2026-11-13",
+      "category": "Theatre news"
+    },
+    {
+      "title": "The UK screen sector in numbers",
+      "description": "A briefing on the BFI’s latest quarterly figures.",
+      "url": "/news/uk-screen-statistics.html",
+      "date": "2026-11-13",
+      "category": "Screen news"
+    },
+    {
+      "title": "A wrong turn on the way home from IKEA leads to Dante’s dark wood",
+      "description": "Tania Khan’s I Can See the Sun brings surreal new writing to the Hope Theatre in Islington, with remaining performances through 21 November.",
+      "url": "/london-fringe-theatre/i-can-see-the-sun.html",
+      "date": "2026-11-13",
+      "category": "Theatre preview",
+      "source": "https://www.thehopetheatre.com/icanseethesun"
+    }
+  ]
+}

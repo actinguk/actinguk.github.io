@@ -18,3 +18,6 @@ Baseline: bf305e8a0cd8beb924cae3f79d6cc38b5548cf51. Backup: backup/pre-audit-imp
 - Migrate existing external photographs only after authorised source image files are obtained; no image replacement or downloads attempted. Social metadata uses existing local portrait.
 - Establish a dedicated nonpublic editorial contact address; public GitHub issues are available for non-sensitive corrections only.
 - Measure real search and AI citations after verified account access; no rankings, traffic or AI inclusion claimed.
+
+## Independent browser regression test
+The SEO validation workflow also serves the checked-out site on a local HTTP server and tests representative desktop/mobile pages, computed CSS, navigation, search, checklist, keyboard skip link and local lab performance metrics. This test does not substitute for public HTTPS or real-user Core Web Vitals.

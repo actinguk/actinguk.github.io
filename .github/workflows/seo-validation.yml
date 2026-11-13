@@ -12,3 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate static SEO
         run: python3 scripts/validate_seo.py
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install browser test dependency
+        run: npm install --no-save --ignore-scripts playwright@1.56.1
+      - name: Install Chromium
+        run: npx playwright install chromium
+      - name: Serve the exact checked-out site and test its rendering
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/actinguk-server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          for i in $(seq 1 20); do curl -fsS http://127.0.0.1:8765/ > /dev/null && break; sleep 1; done
+          SITE_BASE=http://127.0.0.1:8765 node scripts/check_browser.mjs

@@ -1,0 +1,31 @@
+name: Live SEO and browser checks
+on:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          fetch-depth: 2
+      - name: Check public HTTPS, assets, redirects and every sitemap URL
+        run: python3 scripts/check_live.py
+      - name: Notify IndexNow about changed pages
+        if: ${{ github.event_name == 'workflow_run' }}
+        continue-on-error: true
+        run: python3 scripts/notify_indexnow.py
+      - name: Install browser test dependency
+        run: npm install --no-save --ignore-scripts playwright@1.56.1
+      - name: Install Chromium
+        run: npx playwright install chromium
+      - name: Check desktop and mobile layouts and interactive navigation
+        run: node scripts/check_browser.mjs

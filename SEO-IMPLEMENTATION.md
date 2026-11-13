@@ -12,9 +12,9 @@ Baseline: bf305e8a0cd8beb924cae3f79d6cc38b5548cf51. Backup: backup/pre-audit-imp
 
 ## Outstanding / external dependency
 - Verify ownership in Google Search Console and Bing Webmaster Tools and submit sitemap; no account verification or search indexing has been claimed.
-- Test live DNS, HTTPS, redirects, crawler access, Core Web Vitals and mobile/keyboard behavior; browser and public-network checks were not available in this environment.
+- Post-deployment GitHub Actions now tests live DNS, HTTPS, redirects, assets, every sitemap URL and desktop/mobile browser behavior. Real-user Core Web Vitals, full keyboard/accessibility audit and search-engine crawl logs still require measurement.
 - Independently recheck every provider's current official submission page, status, prices and availability; source links are not proof of ongoing availability. Publish original agency survey, cost-of-acting research and expanded profiles only after source collection and verification.
-- Add IndexNow after a verified site key and live crawl validation; no submission claimed.
+- IndexNow key and post-deployment notification script added. Submission is attempted only after successful live HTTPS verification; inspect the workflow for actual acceptance.
 - Migrate existing external photographs only after authorised source image files are obtained; no image replacement or downloads attempted. Social metadata uses existing local portrait.
 - Establish a dedicated nonpublic editorial contact address; public GitHub issues are available for non-sensitive corrections only.
 - Measure real search and AI citations after verified account access; no rankings, traffic or AI inclusion claimed.

@@ -7,21 +7,51 @@
       "url": "/news/casting-fees-appeal.html",
       "date": "2026-11-13",
       "category": "Industry rights",
-      "source": "https://www.equity.org.uk/news/2026/equity-members-to-take-action-on-casting-directory-fees"
+      "source": "https://www.equity.org.uk/news/2026/equity-members-to-take-action-on-casting-directory-fees",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/The_Royal_Courts_of_Justice.jpg/960px-The_Royal_Courts_of_Justice.jpg",
+        "alt": "The Royal Courts of Justice in London",
+        "credit": "Photograph by Mike Peel (www.mikepeel.net)",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Royal_Courts_of_Justice.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "width": 960,
+        "height": 640,
+        "kind": "contextual photograph"
+      }
     },
     {
       "title": "Bradford venue faces closure",
       "description": "Theatre in the Mill is due to close on 31 March 2027.",
       "url": "/news/bradford-venue-closure.html",
       "date": "2026-11-13",
-      "category": "Theatre news"
+      "category": "Theatre news",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/The_Theatre_in_the_Mill%2C_Bradford_University_-_geograph.org.uk_-_5977105.jpg",
+        "alt": "Theatre in the Mill building at the University of Bradford",
+        "credit": "The Theatre in the Mill, Bradford University by Stephen Armstrong",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Theatre_in_the_Mill,_Bradford_University_-_geograph.org.uk_-_5977105.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "width": 640,
+        "height": 480,
+        "kind": "contextual photograph"
+      }
     },
     {
       "title": "The UK screen sector in numbers",
       "description": "A briefing on the BFI’s latest quarterly figures.",
       "url": "/news/uk-screen-statistics.html",
       "date": "2026-11-13",
-      "category": "Screen news"
+      "category": "Screen news",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/BFI_Southbank_2025-08-21.jpg/960px-BFI_Southbank_2025-08-21.jpg",
+        "alt": "BFI Southbank cinema entrance in London",
+        "credit": "Ewan Munro",
+        "source": "https://commons.wikimedia.org/wiki/File:BFI_Southbank_2025-08-21.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "width": 960,
+        "height": 542,
+        "kind": "contextual photograph"
+      }
     },
     {
       "title": "A wrong turn on the way home from IKEA leads to Dante’s dark wood",
@@ -29,7 +59,17 @@
       "url": "/london-fringe-theatre/i-can-see-the-sun.html",
       "date": "2026-11-13",
       "category": "Theatre preview",
-      "source": "https://www.thehopetheatre.com/icanseethesun"
+      "source": "https://www.thehopetheatre.com/icanseethesun",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Hope_%26_Anchor_pub%2C_Upper_Street%2C_Islington.jpg/960px-Hope_%26_Anchor_pub%2C_Upper_Street%2C_Islington.jpg",
+        "alt": "Hope and Anchor pub, home of the Hope Theatre, on Upper Street in Islington",
+        "credit": "Philafrenzy",
+        "source": "https://commons.wikimedia.org/wiki/File:Hope_%26_Anchor_pub,_Upper_Street,_Islington.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "width": 960,
+        "height": 720,
+        "kind": "contextual photograph"
+      }
     }
   ]
 }

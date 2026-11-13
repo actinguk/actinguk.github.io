@@ -21,3 +21,7 @@ Baseline: bf305e8a0cd8beb924cae3f79d6cc38b5548cf51. Backup: backup/pre-audit-imp
 
 ## Independent browser regression test
 The SEO validation workflow also serves the checked-out site on a local HTTP server and tests representative desktop/mobile pages, computed CSS, navigation, search, checklist, keyboard skip link and local lab performance metrics. This test does not substitute for public HTTPS or real-user Core Web Vitals.
+
+## Follow-up content and testing
+- Added standalone guides to acting without drama school, Spotlight eligibility and published-cost examples. The cost guide is a transparent limited comparison, not a UK-wide price survey. Linked from subject hubs and relevant existing guides; included in sitemap.
+- Pinned browser-test runners to Ubuntu 24.04 because Playwright 1.56.1 does not support the default Ubuntu 26.04 runner. Local browser tests do not establish that custom-domain HTTPS is working.

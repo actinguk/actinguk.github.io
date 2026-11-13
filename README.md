@@ -14,7 +14,7 @@ Spotlight (https://www.spotlight.com/industry-resources/) and Contacts (https://
 Our distinction is a free-to-browse editorial hub that connects these sources across career stages instead of copying casting listings or claiming to be an agent. The directory is selective, not a ranking or endorsement. Each listing links to the organisation or resource, and users should verify current submission policies, eligibility and costs on the original source. News briefings are dated snapshots, not a live feed. Research compilation: 13 November 2026.
 
 ## Run or publish
-Open index.html in a browser. To publish with GitHub Pages, open Settings → Pages, choose Deploy from a branch, select main and /(root), then Save. The standard project URL is https://actinguk.github.io/ once Pages is enabled and deployment succeeds.
+Open index.html in a browser. To publish with GitHub Pages, open Settings → Pages, choose Deploy from a branch, select main and /(root), then Save. The standard project URL is https://actinguk.com/ once Pages is enabled and deployment succeeds.
 
 ## Maintenance
 Edit the data and guides arrays in index.html. Keep links, course details and agency policies current; update the briefing date when replacing stories. Do not republish third-party articles or protected casting breakdowns. The site does not collect personal information or send data to a backend.

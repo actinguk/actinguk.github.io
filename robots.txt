@@ -4,4 +4,4 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-Sitemap: https://actinguk.github.io/sitemap.xml
+Sitemap: https://actinguk.com/sitemap.xml

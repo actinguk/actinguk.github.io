@@ -24,8 +24,15 @@ for(const width of [1440,390]){
  await page.goto(base+'/',{waitUntil:'domcontentloaded'});
  await page.locator('#search').fill('RADA');
  if(!(await page.locator('#entries').innerText()).includes('RADA'))errors.push('Directory search failed');
- await page.locator('#tasks input[type=checkbox]').first().check();
- if(!(await page.locator('#progressText').innerText()).includes('1 of'))errors.push('Checklist failed');
+ const task=page.locator('#tasks input[type=checkbox]').first();
+ const before=await task.isChecked();
+ const prev=Number((await page.locator('#progressText').innerText()).match(/\d+/)?.[0]||0);
+ await task.click();
+ await page.waitForFunction(({prev,before})=>Number(document.querySelector('#progressText').textContent.match(/\d+/)[0])===prev+(before?-1:1),{prev,before},{timeout:5000});
+ const expected=prev+(before?-1:1);
+ await page.reload({waitUntil:'domcontentloaded'});
+ await page.waitForFunction(expected=>Number(document.querySelector('#progressText').textContent.match(/\d+/)[0])===expected,expected,{timeout:5000});
+ console.log('Checklist persisted',width,expected);
  await page.close();
 }
 await browser.close();

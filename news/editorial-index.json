@@ -70,6 +70,46 @@
         "height": 720,
         "kind": "contextual photograph"
       }
+    },
+    {
+      "title": "Dogstar: a stranded crew, a restless new playwright and divided critics",
+      "description": "Daisy Hall’s Arctic-set dark comedy at Hampstead Downstairs has drawn contrasting responses, with praise for its three performers.",
+      "url": "/london-fringe-theatre/dogstar.html",
+      "date": "2026-11-13",
+      "category": "Review roundup",
+      "source": "https://www.hampsteadtheatre.com/production/dogstar/",
+      "endDate": "2026-12-05",
+      "venue": "Hampstead Theatre Downstairs",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Hampstead_Theatre%2C_Swiss_Cottage_geograph-4930985-by-Jim-Osley.jpg/960px-Hampstead_Theatre%2C_Swiss_Cottage_geograph-4930985-by-Jim-Osley.jpg",
+        "alt": "Exterior of Hampstead Theatre in Swiss Cottage",
+        "credit": "Jim Osley / Hampstead Theatre, Swiss Cottage",
+        "source": "https://commons.wikimedia.org/wiki/File:Hampstead_Theatre,_Swiss_Cottage_geograph-4930985-by-Jim-Osley.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "width": 960,
+        "height": 622,
+        "kind": "contextual photograph"
+      }
+    },
+    {
+      "title": "The Moth: can two men ever escape the history that binds them?",
+      "description": "Paul Herzberg’s London premiere at the Finborough has inspired contrasting critical reactions to its exploration of apartheid and forgiveness.",
+      "url": "/london-fringe-theatre/the-moth.html",
+      "date": "2026-11-13",
+      "category": "Review roundup",
+      "source": "https://elysiumtc.co.uk/the-moth-a-world-premiere/",
+      "endDate": "2026-11-21",
+      "venue": "Finborough Theatre",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Finborough_Theatre%2C_near_Earl%27s_Court%2C_London.JPG/500px-Finborough_Theatre%2C_near_Earl%27s_Court%2C_London.JPG",
+        "alt": "Finborough Theatre building near Earl’s Court",
+        "credit": "Kim Traynor",
+        "source": "https://commons.wikimedia.org/wiki/File:Finborough_Theatre,_near_Earl%27s_Court,_London.JPG",
+        "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "width": 500,
+        "height": 672,
+        "kind": "contextual photograph"
+      }
     }
   ]
 }

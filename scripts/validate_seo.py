@@ -11,7 +11,7 @@ EXCLUDE={"templates","content","scripts",".github",".git"}
 class Page(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.ids=set(); self.duplicate_ids=set(); self.links=[]; self.images=[]; self.h1=0
+        self.ids=set(); self.duplicate_ids=set(); self.links=[]; self.images=[]; self.h1=0; self.external_links=[]
         self.title=""; self.title_open=False; self.desc=[]; self.canon=[]; self.robots=[]; self.jsonld=[]; self.json_open=False; self.json_buf=""
         self.lang=None; self.viewport=False
     def handle_starttag(self,tag,attrs):
@@ -29,6 +29,7 @@ class Page(HTMLParser):
         if tag=="link" and a.get("rel")=="canonical": self.canon.append(a.get("href",""))
         if tag=="script" and a.get("type")=="application/ld+json": self.json_open=True; self.json_buf=""
         if tag in ("a","link") and a.get("href") and a.get("rel")!="canonical": self.links.append(a["href"])
+        if tag=="a" and a.get("href"): self.external_links.append(a)
         if tag in ("script","img") and a.get("src"): self.links.append(a["src"])
         if tag=="img": self.images.append(a)
     def handle_endtag(self,tag):
@@ -67,6 +68,11 @@ for p,x in pages.items():
     for image in x.images:
         if "alt" not in image: err(p,"image lacks alt attribute")
         if not image.get("width") or not image.get("height"): warnings.append(f"{p}: image lacks explicit dimensions")
+    for a in x.external_links:
+        dest=urlsplit(urljoin(url_for(p),a["href"]))
+        if dest.scheme in ("http","https") and dest.hostname not in ("actinguk.com","www.actinguk.com","actinguk.github.io"):
+            if a.get("target")!="_blank" or not {"noopener","noreferrer"}.issubset(set(a.get("rel","").lower().split())):
+                err(p,f"external link must open safely in a new tab: {a['href']}")
     for raw in x.links:
         resolved=urlsplit(urljoin(url_for(p),raw))
         if resolved.scheme not in ("http","https") or resolved.hostname!="actinguk.com": continue

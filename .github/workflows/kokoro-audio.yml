@@ -79,6 +79,8 @@ jobs:
           git archive HEAD | tar -x -C _site
           rm -rf _site/.github _site/scripts _site/templates _site/content
           echo '::warning::Audio generation failed; deploying text-only website.'
+      - name: Install and verify shared favicons
+        run: python scripts/install_favicons.py --site _site
       - name: Upload preview MP3s
         if: steps.mode.outputs.deploy != 'true'
         uses: actions/upload-artifact@v4

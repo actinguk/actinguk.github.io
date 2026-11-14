@@ -15,3 +15,7 @@ Applies to every article in `news/` and `london-fringe-theatre/`, including auto
 Kokoro builds MP3 narration into the separate Pages artifact. The source markup stays readable; the build formats the final audio-enabled page with the same formatter. Preserve the article hero and body and the existing audio integration; do not add a second audio script or player. The build adds the player, CSS and script as required. No change to retention or audio eligibility.
 
 The formatter refuses unbalanced markup or semantic changes to tags, attributes, JSON-LD or mixed inline text, and checks idempotence. It does not rewrite article prose or restructure existing pages. The existing SEO validation workflow also checks article formatting on pushes.
+
+## Site favicon
+
+All new HTML pages must retain the shared root favicon and manifest links. The Pages build runs `scripts/install_favicons.py` to ensure all published HTML pages have the same icons, including after audio fallback. Use the existing formatted article head for future articles.

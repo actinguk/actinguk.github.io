@@ -120,6 +120,8 @@ jobs:
                   with fetch('/assets/audio/manifest.json?check=' + str(int(time.time()))) as r:
                       m = json.load(r)
                   assert m['retention_days'] == 30, 'Unexpected retention'
+                  assert m['voice'] == 'bf_isabella', 'New Isabella audio has not been deployed yet'
+                  assert not m['errors'], m['errors']
                   assert m['articles'], 'No audio entries'
                   for row in m['articles']:
                       with fetch(row['article']) as r:

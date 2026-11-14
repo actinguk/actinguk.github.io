@@ -13,7 +13,7 @@ import tempfile
 
 from bs4 import BeautifulSoup
 
-VOICE = os.getenv("KOKORO_VOICE", "bf_emma")
+VOICE = os.getenv("KOKORO_VOICE", "bf_isabella")
 VERSION = "kokoro-0.9.4-v1-0-64k-v1"
 RATE = 24000
 SECTIONS = ("news", "london-fringe-theatre")

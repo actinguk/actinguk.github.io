@@ -2,29 +2,29 @@
   "version": 1,
   "indexnow": {
     "https://actinguk.com/news/casting-fees-appeal.html": {
-      "hash": "82debfca14e4c9b13a381d8f8f9e402318c05b275ae42f680bd5a18b8fb227da",
-      "status": 202,
-      "at": "2026-11-14T18:11:03.466Z"
+      "hash": "3fd1a1ec7f2efeb6e7e17be04b4989ee1faadaa0947ee0d75e192c2985f24bdb",
+      "status": 200,
+      "at": "2026-11-14T18:13:08.938Z"
     },
     "https://actinguk.com/news/bradford-venue-closure.html": {
-      "hash": "1f07ef61a46203d4235e26123d9ebe95c64e012dac353529177622acd0e582e5",
-      "status": 202,
-      "at": "2026-11-14T18:11:03.466Z"
+      "hash": "f39b5f691556e545e3ef96b70b73138c076e325fea9aed3dc876bceb0a05c8ac",
+      "status": 200,
+      "at": "2026-11-14T18:13:08.938Z"
     },
     "https://actinguk.com/news/uk-screen-statistics.html": {
-      "hash": "e811284a5c0f948e3bd26458fa3ecc627e1fafdc32d756e2ae03c60d802b7412",
-      "status": 202,
-      "at": "2026-11-14T18:11:03.466Z"
+      "hash": "d1da44112dc598a7d2291b5ae49dbcc0d573834e6001ad08f5f694332c3e77fe",
+      "status": 200,
+      "at": "2026-11-14T18:13:08.938Z"
     },
     "https://actinguk.com/london-fringe-theatre/i-can-see-the-sun.html": {
-      "hash": "2ff1ed53cee5645fde3e8f1fe78b478c355ceb0c5703e38c6d1ecc78e533d62f",
-      "status": 202,
-      "at": "2026-11-14T18:11:03.466Z"
+      "hash": "e971f063dfc45aa8086bd0393404daf1fed86832a4d8ce7260addddd9374721a",
+      "status": 200,
+      "at": "2026-11-14T18:13:08.938Z"
     },
     "https://actinguk.com/london-fringe-theatre/dogstar.html": {
-      "hash": "50c50c12f5ee803a7ca7048f5c2bc9fc62a1f480a1fd9e66e427eb060fbf299f",
-      "status": 202,
-      "at": "2026-11-14T18:11:03.466Z"
+      "hash": "24fa810ceed0ccc3c8cdd3979c905a593e09bf2744d085e95db9494824930a29",
+      "status": 200,
+      "at": "2026-11-14T18:13:08.938Z"
     },
     "https://actinguk.com/london-fringe-theatre/the-moth.html": {
       "hash": "c7d434bdde854606fd05890fa2a7ed841075718b5a2a50cf5a53c6924317f692",
@@ -152,6 +152,18 @@
       "service": "WebSub",
       "status": 204,
       "detail": "https://actinguk.com/fringe-rss.xml"
+    },
+    {
+      "at": "2026-11-14T18:13:08.938Z",
+      "service": "IndexNow",
+      "status": 200,
+      "detail": [
+        "https://actinguk.com/news/casting-fees-appeal.html",
+        "https://actinguk.com/news/bradford-venue-closure.html",
+        "https://actinguk.com/news/uk-screen-statistics.html",
+        "https://actinguk.com/london-fringe-theatre/i-can-see-the-sun.html",
+        "https://actinguk.com/london-fringe-theatre/dogstar.html"
+      ]
     }
   ]
 }

@@ -36,11 +36,19 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install free CPU tools
+        id: dependencies
+        continue-on-error: ${{ github.ref == 'refs/heads/main' }}
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg espeak-ng libespeak-ng1
-          python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.5.1
-          python -m pip install kokoro==0.9.4 soundfile==0.13.1 beautifulsoup4==4.13.4
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.6.0
+          python -m pip install kokoro==0.9.4 transformers==4.51.3 huggingface-hub==0.30.2 numpy==2.2.6 soundfile==0.13.1 beautifulsoup4==4.13.4
+          python -m spacy download en_core_web_sm
+      - name: Restore model cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface/hub
+          key: kokoro-model-v1-0
       - name: Restore audio cache
         uses: actions/cache@v4
         with:
@@ -54,12 +62,23 @@ jobs:
           git archive HEAD | tar -x -C _site
           rm -rf _site/.github _site/scripts _site/templates _site/content
       - name: Generate and validate narration
+        id: narration
+        if: steps.dependencies.outcome == 'success'
+        continue-on-error: ${{ github.ref == 'refs/heads/main' }}
         run: |
           if [[ "$GITHUB_REF" == refs/heads/kokoro-audio-preview ]]; then
             python scripts/build_audio.py --site _site --cache .audio-cache --limit 2 --require-audio
           else
             python scripts/build_audio.py --site _site --cache .audio-cache
           fi
+      - name: Preserve plain site if audio build failed
+        if: github.ref == 'refs/heads/main' && (steps.dependencies.outcome != 'success' || steps.narration.outcome != 'success')
+        run: |
+          rm -rf _site
+          mkdir -p _site
+          git archive HEAD | tar -x -C _site
+          rm -rf _site/.github _site/scripts _site/templates _site/content
+          echo '::warning::Audio generation failed; deploying text-only website.'
       - name: Upload preview MP3s
         if: steps.mode.outputs.deploy != 'true'
         uses: actions/upload-artifact@v4

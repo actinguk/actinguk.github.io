@@ -44,7 +44,7 @@ def extract(path):
     if lead:
         parts.append(clean(lead.get_text(" ", strip=True)))
     for el in body.select("p,h2,h3,li,blockquote"):
-        if el.find_parent(class_=["sources", "side"]) or el.get("class") and "note" in el["class"]:
+        if el.find_parent(class_=["sources", "side"]):
             continue
         if el.find_parent(["li", "blockquote"]):
             continue
@@ -155,7 +155,12 @@ def main():
             age=(args.today-published).days
             if 0<=age<RETENTION:
                 eligible.append((path,soup,hero,published,parts))
-    if args.limit: eligible=eligible[:args.limit]
+    if args.limit:
+        selected=[]
+        for section in SECTIONS:
+            match=next((item for item in eligible if item[0].parent.name==section),None)
+            if match: selected.append(match)
+        eligible=selected[:args.limit]
     for path,soup,hero,published,parts in eligible:
         digest=key_for(parts)
         name=f"{digest}.mp3"

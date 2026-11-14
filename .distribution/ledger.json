@@ -62,9 +62,9 @@
       "at": "2026-11-14T18:14:04.718Z"
     },
     "https://actinguk.com/": {
-      "hash": "e42c92bab8f0d868a11dfa1e689ba8397f3c31951d108e29462a3ab0e25d2735",
-      "status": 202,
-      "at": "2026-11-14T18:11:03.466Z"
+      "hash": "45ed552041f43b808a3e3dd947ddf95bc4da0a33b21df749842435bc2a83e761",
+      "status": 200,
+      "at": "2026-11-14T18:22:28.909Z"
     },
     "https://actinguk.com/news/": {
       "hash": "f966066559eb6a031c47826b508088faee74b8637ead9895ede5626c2a4e648b",
@@ -72,9 +72,9 @@
       "at": "2026-11-14T18:11:03.466Z"
     },
     "https://actinguk.com/london-fringe-theatre/": {
-      "hash": "6659f4de048c2e463c9a163e6b798b24c440c64bdd8c90ad180c4448fbbdb865",
-      "status": 202,
-      "at": "2026-11-14T18:11:03.466Z"
+      "hash": "0551b6466edafdb956258b9f40f329d4481eac842529e26d4e9f0b37f4da456a",
+      "status": 200,
+      "at": "2026-11-14T18:22:28.909Z"
     },
     "https://actinguk.com/follow/": {
       "hash": "ff5229508797833350b35b3a7258d09433f09a5d0a264a7c83b9aabe8c71ad7c",
@@ -82,21 +82,26 @@
       "at": "2026-11-14T18:11:03.466Z"
     },
     "https://actinguk.com/london-fringe-theatre/calendar/": {
-      "hash": "1c73b9e9e18fa3db083d586b14df106119d2eda16d5e8eb8c5486a145f903004",
-      "status": 202,
-      "at": "2026-11-14T18:11:03.466Z"
+      "hash": "14a5ba61fa9d47436acc84620ebbfff682d4381adc5dc1b2f0f4de6fb3f3b71c",
+      "status": 200,
+      "at": "2026-11-14T18:22:28.909Z"
     },
     "https://actinguk.com/casting-opportunities/": {
       "hash": "f5d3b9d0add634cd232f7872f67fe6e1e2074f3981b389c0416ff959527bcc8b",
       "status": 202,
       "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/london-fringe-theatre/lear-ian-mckellen-yard.html": {
+      "hash": "c40bfea0728120776691c4e6c0dc7ae595dc6053fa7fba57aabc800f8c498e9c",
+      "status": 200,
+      "at": "2026-11-14T18:22:28.909Z"
     }
   },
   "websub": {
     "https://actinguk.com/rss.xml": {
-      "hash": "b28d912bf20afe1c9e24137126dd9476fb7ecb8cce79742a3fba14c403428c16",
+      "hash": "c06bac6fcb30c2c2f401b26657baaf3373945af3a54ce93b1f2a25d9e51d3b0f",
       "status": 204,
-      "at": "2026-11-14T18:11:04.565Z"
+      "at": "2026-11-14T18:22:29.752Z"
     },
     "https://actinguk.com/industry-rss.xml": {
       "hash": "54850f9f806db90bfa4baf42f589b78c914cb18dc42372c6bcb4b0f9e789b11c",
@@ -104,9 +109,9 @@
       "at": "2026-11-14T18:11:05.566Z"
     },
     "https://actinguk.com/fringe-rss.xml": {
-      "hash": "9fe1645ac14e4d024d4276eec51def655eb79548a1a9dd4a991ee40093fb26a8",
+      "hash": "807c67092c44968d44696fddcf52d6eb5358c4d2579f54918a54ca1c2ef79583",
       "status": 204,
-      "at": "2026-11-14T18:11:06.650Z"
+      "at": "2026-11-14T18:22:30.799Z"
     }
   },
   "attempts": [
@@ -185,6 +190,29 @@
         "https://actinguk.com/london-fringe-theatre/lover-girl-temi-wilkey.html",
         "https://actinguk.com/london-fringe-theatre/relative-motion-southwark-playhouse.html"
       ]
+    },
+    {
+      "at": "2026-11-14T18:22:28.909Z",
+      "service": "IndexNow",
+      "status": 200,
+      "detail": [
+        "https://actinguk.com/london-fringe-theatre/lear-ian-mckellen-yard.html",
+        "https://actinguk.com/",
+        "https://actinguk.com/london-fringe-theatre/calendar/",
+        "https://actinguk.com/london-fringe-theatre/"
+      ]
+    },
+    {
+      "at": "2026-11-14T18:22:29.752Z",
+      "service": "WebSub",
+      "status": 204,
+      "detail": "https://actinguk.com/rss.xml"
+    },
+    {
+      "at": "2026-11-14T18:22:30.799Z",
+      "service": "WebSub",
+      "status": 204,
+      "detail": "https://actinguk.com/fringe-rss.xml"
     }
   ]
 }

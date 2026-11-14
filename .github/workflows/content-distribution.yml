@@ -47,11 +47,17 @@ jobs:
           git config user.name "actinguk-distribution[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add news-sitemap.xml rss.xml industry-rss.xml fringe-rss.xml london-fringe-theatre/calendar/index.html casting-opportunities/index.html follow/index.html
+          changed=false
           if ! git diff --cached --quiet; then
             git commit -m "Refresh newsroom discovery files"
             git push origin HEAD:main
+            changed=true
+          fi
+          # Retry a previously unsuccessful build even when the generated files
+          # are already committed. Do not request a build for a live match.
+          if [ "$changed" = true ] || ! curl --fail --silent --show-error --max-time 15 https://actinguk.com/news-sitemap.xml | cmp -s - news-sitemap.xml; then
             # A GITHUB_TOKEN commit does not trigger branch-based Pages builds.
-            gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" || { echo "::error::Discovery commit saved; explicit Pages build failed. Check Pages settings or trigger a build with an authorised account."; exit 1; }
+            gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" || echo "::warning::Explicit Pages build request failed; live verification will determine whether submission is safe."
           fi
       - name: Verify live URLs and send notifications
         env:

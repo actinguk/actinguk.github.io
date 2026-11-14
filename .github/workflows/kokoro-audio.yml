@@ -19,7 +19,7 @@ jobs:
     outputs:
       deploy: ${{ steps.mode.outputs.deploy }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Detect Pages publishing mode
         id: mode
         env:
@@ -32,7 +32,7 @@ jobs:
           else
             echo "deploy=false" >> "$GITHUB_OUTPUT"
           fi
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       - name: Install free CPU tools
@@ -45,12 +45,12 @@ jobs:
           python -m pip install kokoro==0.9.4 transformers==4.51.3 huggingface-hub==0.30.2 numpy==2.2.6 soundfile==0.13.1 beautifulsoup4==4.13.4
           python -m spacy download en_core_web_sm
       - name: Restore model cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.cache/huggingface/hub
           key: kokoro-model-v1-0
       - name: Restore audio cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .audio-cache
           key: kokoro-audio-v1-${{ github.run_id }}-${{ github.run_attempt }}
@@ -83,17 +83,17 @@ jobs:
         run: python scripts/install_favicons.py --site _site
       - name: Upload preview MP3s
         if: steps.mode.outputs.deploy != 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: kokoro-audio-preview
           path: _site/assets/audio
           retention-days: 1
       - name: Configure Pages
         if: steps.mode.outputs.deploy == 'true'
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload Pages artifact
         if: steps.mode.outputs.deploy == 'true'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
           retention-days: 1
@@ -107,7 +107,7 @@ jobs:
     steps:
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
       - name: Verify public article audio after deployment
         run: |
           python - <<'PY'

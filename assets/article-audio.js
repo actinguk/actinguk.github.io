@@ -1,0 +1,1 @@
+document.querySelectorAll(".article-audio").forEach(player=>{const audio=player.querySelector("audio"),speed=player.querySelector("select");if(audio&&speed){speed.addEventListener("change",()=>{audio.playbackRate=Number(speed.value)});audio.addEventListener("play",()=>{document.querySelectorAll(".article-audio audio").forEach(other=>{if(other!==audio)other.pause()})});}});

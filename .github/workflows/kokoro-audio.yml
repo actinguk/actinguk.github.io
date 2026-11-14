@@ -1,0 +1,89 @@
+name: Kokoro audio and Pages
+on:
+  push:
+    branches: [main, kokoro-audio-preview]
+  schedule:
+    - cron: '17 10 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: kokoro-pages-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    outputs:
+      deploy: ${{ steps.mode.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Detect Pages publishing mode
+        id: mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mode=$(gh api repos/"$GITHUB_REPOSITORY"/pages --jq .build_type 2>/dev/null || echo unknown)
+          echo "Pages mode: $mode"
+          if [[ "$GITHUB_REF" == refs/heads/main && "$mode" == workflow ]]; then
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free CPU tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg espeak-ng libespeak-ng1
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.5.1
+          python -m pip install kokoro==0.9.4 soundfile==0.13.1 beautifulsoup4==4.13.4
+      - name: Restore audio cache
+        uses: actions/cache@v4
+        with:
+          path: .audio-cache
+          key: kokoro-audio-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            kokoro-audio-v1-
+      - name: Export website
+        run: |
+          mkdir -p _site
+          git archive HEAD | tar -x -C _site
+          rm -rf _site/.github _site/scripts _site/templates _site/content
+      - name: Generate and validate narration
+        run: |
+          if [[ "$GITHUB_REF" == refs/heads/kokoro-audio-preview ]]; then
+            python scripts/build_audio.py --site _site --cache .audio-cache --limit 2 --require-audio
+          else
+            python scripts/build_audio.py --site _site --cache .audio-cache
+          fi
+      - name: Upload preview MP3s
+        if: steps.mode.outputs.deploy != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: kokoro-audio-preview
+          path: _site/assets/audio
+          retention-days: 1
+      - name: Configure Pages
+        if: steps.mode.outputs.deploy == 'true'
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: steps.mode.outputs.deploy == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+          retention-days: 1
+  deploy:
+    if: needs.build.outputs.deploy == 'true'
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -69,7 +69,10 @@
         "width": 960,
         "height": 720,
         "kind": "contextual photograph"
-      }
+      },
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-21",
+      "venue": "The Hope Theatre"
     },
     {
       "title": "Dogstar: a stranded crew, a restless new playwright and divided critics",
@@ -89,7 +92,8 @@
         "width": 960,
         "height": 622,
         "kind": "contextual photograph"
-      }
+      },
+      "startDate": "2026-10-30"
     },
     {
       "title": "The Moth: can two men ever escape the history that binds them?",
@@ -109,7 +113,8 @@
         "width": 500,
         "height": 672,
         "kind": "contextual photograph"
-      }
+      },
+      "startDate": "2026-10-27"
     },
     {
       "title": "Barbara Broccoli takes the helm at the NFTS",
@@ -221,7 +226,8 @@
         "height": 960,
         "kind": "contextual photograph",
         "label": "CC BY 2.0"
-      }
+      },
+      "startDate": "2026-11-09"
     },
     {
       "title": "Relative Motion: when a romance starts obeying different laws",
@@ -246,7 +252,8 @@
       ],
       "endDate": "2026-12-05",
       "venue": "Southwark Playhouse Borough, The Little",
-      "imageStatus": "No cleared image used"
+      "imageStatus": "No cleared image used",
+      "startDate": "2026-11-11"
     },
     {
       "title": "Lover Girl: Temi Wilkey takes the solo show into stranger territory",
@@ -285,7 +292,8 @@
         "height": 1280,
         "kind": "contextual photograph",
         "label": "CC BY-SA 2.0"
-      }
+      },
+      "startDate": "2026-11-02"
     }
   ]
 }

@@ -51,6 +51,11 @@ for f in sorted(ROOT.rglob("*.html")):
 errors=[]; warnings=[]; titles=defaultdict(list); descriptions=defaultdict(list); expected=set()
 def err(p,msg): errors.append(f"{p}: {msg}")
 for p,x in pages.items():
+    # The historical automation smoke test is deliberately not an indexed article.
+    if p == "news/automation-probe.html":
+        if not any("noindex" in v.lower().split(",") for v in x.robots):
+            err(p, "technical probe must remain noindex")
+        continue
     if x.h1!=1: err(p,f"expected one H1; found {x.h1}")
     if not x.title.strip(): err(p,"missing title")
     if len(x.desc)!=1 or not x.desc[0].strip(): err(p,"missing or duplicate description")

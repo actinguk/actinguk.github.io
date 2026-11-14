@@ -106,3 +106,32 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify public article audio after deployment
+        run: |
+          python - <<'PY'
+          import json, time, urllib.request
+          from html.parser import HTMLParser
+          base = 'https://actinguk.com'
+          def fetch(path, headers=None):
+              req = urllib.request.Request(base + path, headers={'User-Agent':'ActingUK-Audio-Check/1.0', **(headers or {})})
+              return urllib.request.urlopen(req, timeout=25)
+          for attempt in range(12):
+              try:
+                  with fetch('/assets/audio/manifest.json?check=' + str(int(time.time()))) as r:
+                      m = json.load(r)
+                  assert m['retention_days'] == 30, 'Unexpected retention'
+                  assert m['articles'], 'No audio entries'
+                  for row in m['articles']:
+                      with fetch(row['article']) as r:
+                          page = r.read().decode()
+                      assert row['audio'] in page and 'article-audio' in page, row['article']
+                      with fetch(row['audio'], {'Range':'bytes=0-1023'}) as r:
+                          assert r.status in (200,206) and len(r.read(1024)) > 0, row['audio']
+                      print('VERIFIED', row['article'], row['duration_seconds'])
+                  print('Verified', len(m['articles']), 'live audio articles; generation errors:', len(m['errors']))
+                  break
+              except Exception as e:
+                  print('Verification attempt', attempt+1, str(e))
+                  if attempt == 11: raise
+                  time.sleep(10)
+          PY

@@ -294,6 +294,28 @@
         "label": "CC BY-SA 2.0"
       },
       "startDate": "2026-11-02"
+    },
+    {
+      "title": "Lear: Ian McKellen returns to a role that refuses to let him go",
+      "description": "A new play at the Yard Theatre brings Shakespeare into conversation with the actor’s own working life, opening on 17 November.",
+      "url": "/london-fringe-theatre/lear-ian-mckellen-yard.html",
+      "date": "2026-11-14",
+      "category": "Preview",
+      "source": "https://www.theyardtheatre.co.uk/events/lear",
+      "sources": [
+        {
+          "label": "The Yard Theatre production and booking, accessed 14 November 2026",
+          "url": "https://www.theyardtheatre.co.uk/events/lear"
+        },
+        {
+          "label": "Time Out, 29 October 2026",
+          "url": "https://www.timeout.com/london/news/lear-yard-theatre-ian-mckellen-new-dates-more-tickets-102926"
+        }
+      ],
+      "startDate": "2026-11-17",
+      "endDate": "2027-01-02",
+      "venue": "The Yard Theatre, Hackney Wick",
+      "imageStatus": "No cleared image used"
     }
   ]
 }

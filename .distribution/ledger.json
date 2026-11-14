@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "indexnow": {
+    "https://actinguk.com/news/casting-fees-appeal.html": {
+      "hash": "82debfca14e4c9b13a381d8f8f9e402318c05b275ae42f680bd5a18b8fb227da",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/news/bradford-venue-closure.html": {
+      "hash": "1f07ef61a46203d4235e26123d9ebe95c64e012dac353529177622acd0e582e5",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/news/uk-screen-statistics.html": {
+      "hash": "e811284a5c0f948e3bd26458fa3ecc627e1fafdc32d756e2ae03c60d802b7412",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/london-fringe-theatre/i-can-see-the-sun.html": {
+      "hash": "2ff1ed53cee5645fde3e8f1fe78b478c355ceb0c5703e38c6d1ecc78e533d62f",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/london-fringe-theatre/dogstar.html": {
+      "hash": "50c50c12f5ee803a7ca7048f5c2bc9fc62a1f480a1fd9e66e427eb060fbf299f",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/london-fringe-theatre/the-moth.html": {
+      "hash": "c7d434bdde854606fd05890fa2a7ed841075718b5a2a50cf5a53c6924317f692",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/news/barbara-broccoli-nfts-president.html": {
+      "hash": "87c770e2d87fabec9fd2a3e07653cfef9d49c6f9e06b820c4b4b9b8c8a002796",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/news/bectu-ciisa-workplace-standards.html": {
+      "hash": "2d948b671a53d555a7f99842e3b88f09ac981431b1fe2d0d018cf74c1f357346",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/news/old-vic-rupert-goold-first-season.html": {
+      "hash": "036222a163b154278b4945656bf0cc7c74e9fd19f01654ff24664dacb7f48920",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/london-fringe-theatre/horrible-things-frankie-thompson.html": {
+      "hash": "bcc033559796c011bd922d330086988aa89b1731c6317a788d4117a5cfdf8d53",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/london-fringe-theatre/relative-motion-southwark-playhouse.html": {
+      "hash": "d2bce0ed6c9efbc1004bc8b440bb31452471b6ab4968e34b7dbc338e616213a5",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/london-fringe-theatre/lover-girl-temi-wilkey.html": {
+      "hash": "c69a80f0cd4681706356339563f37345b00823ec4193f832c581562857587ae7",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/": {
+      "hash": "e42c92bab8f0d868a11dfa1e689ba8397f3c31951d108e29462a3ab0e25d2735",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/news/": {
+      "hash": "f966066559eb6a031c47826b508088faee74b8637ead9895ede5626c2a4e648b",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/london-fringe-theatre/": {
+      "hash": "6659f4de048c2e463c9a163e6b798b24c440c64bdd8c90ad180c4448fbbdb865",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/follow/": {
+      "hash": "ff5229508797833350b35b3a7258d09433f09a5d0a264a7c83b9aabe8c71ad7c",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/london-fringe-theatre/calendar/": {
+      "hash": "1c73b9e9e18fa3db083d586b14df106119d2eda16d5e8eb8c5486a145f903004",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    },
+    "https://actinguk.com/casting-opportunities/": {
+      "hash": "f5d3b9d0add634cd232f7872f67fe6e1e2074f3981b389c0416ff959527bcc8b",
+      "status": 202,
+      "at": "2026-11-14T18:11:03.466Z"
+    }
+  },
+  "websub": {
+    "https://actinguk.com/rss.xml": {
+      "hash": "b28d912bf20afe1c9e24137126dd9476fb7ecb8cce79742a3fba14c403428c16",
+      "status": 204,
+      "at": "2026-11-14T18:11:04.565Z"
+    },
+    "https://actinguk.com/industry-rss.xml": {
+      "hash": "54850f9f806db90bfa4baf42f589b78c914cb18dc42372c6bcb4b0f9e789b11c",
+      "status": 204,
+      "at": "2026-11-14T18:11:05.566Z"
+    },
+    "https://actinguk.com/fringe-rss.xml": {
+      "hash": "9fe1645ac14e4d024d4276eec51def655eb79548a1a9dd4a991ee40093fb26a8",
+      "status": 204,
+      "at": "2026-11-14T18:11:06.650Z"
+    }
+  },
+  "attempts": [
+    {
+      "at": "2026-11-14T18:11:03.466Z",
+      "service": "IndexNow",
+      "status": 202,
+      "detail": [
+        "https://actinguk.com/news/casting-fees-appeal.html",
+        "https://actinguk.com/news/bradford-venue-closure.html",
+        "https://actinguk.com/news/uk-screen-statistics.html",
+        "https://actinguk.com/london-fringe-theatre/i-can-see-the-sun.html",
+        "https://actinguk.com/london-fringe-theatre/dogstar.html",
+        "https://actinguk.com/london-fringe-theatre/the-moth.html",
+        "https://actinguk.com/news/barbara-broccoli-nfts-president.html",
+        "https://actinguk.com/news/bectu-ciisa-workplace-standards.html",
+        "https://actinguk.com/news/old-vic-rupert-goold-first-season.html",
+        "https://actinguk.com/london-fringe-theatre/horrible-things-frankie-thompson.html",
+        "https://actinguk.com/london-fringe-theatre/relative-motion-southwark-playhouse.html",
+        "https://actinguk.com/london-fringe-theatre/lover-girl-temi-wilkey.html",
+        "https://actinguk.com/",
+        "https://actinguk.com/news/",
+        "https://actinguk.com/london-fringe-theatre/",
+        "https://actinguk.com/follow/",
+        "https://actinguk.com/london-fringe-theatre/calendar/",
+        "https://actinguk.com/casting-opportunities/"
+      ]
+    },
+    {
+      "at": "2026-11-14T18:11:04.564Z",
+      "service": "WebSub",
+      "status": 204,
+      "detail": "https://actinguk.com/rss.xml"
+    },
+    {
+      "at": "2026-11-14T18:11:05.565Z",
+      "service": "WebSub",
+      "status": 204,
+      "detail": "https://actinguk.com/industry-rss.xml"
+    },
+    {
+      "at": "2026-11-14T18:11:06.650Z",
+      "service": "WebSub",
+      "status": 204,
+      "detail": "https://actinguk.com/fringe-rss.xml"
+    }
+  ]
+}

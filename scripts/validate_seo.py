@@ -4,9 +4,10 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, urljoin, unquote
 from collections import defaultdict
-import json, xml.etree.ElementTree as ET, sys
+import json, xml.etree.ElementTree as ET, sys, subprocess
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://actinguk.com"
+subprocess.run(["node", str(ROOT / "scripts/format_articles.mjs"), "--check"], check=True)
 REDIRECTS={"journal/first-headshots.html":"https://actinguk.com/journal/acting-headshots-london.html"}
 EXCLUDE={"templates","content","scripts",".github",".git"}
 class Page(HTMLParser):

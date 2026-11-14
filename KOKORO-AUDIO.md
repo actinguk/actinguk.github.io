@@ -7,3 +7,6 @@ Clone this repository, install Python 3.11, FFmpeg and espeak-ng (Homebrew: brew
 
 ## Failures
 Individual generation failures are reported in /assets/audio/manifest.json and articles remain readable without a player. Preview requires success. Existing article HTML is never edited. Rollback: choose Deploy from a branch / main / root in Pages settings; the original site is intact. Audio generation is retried on each subsequent build. All MP3s are public editorial narration.
+
+## HTML formatting
+The build uses the dependency-free Node.js article formatter after adding the player. For local previews, install Node.js as well. Source articles are checked by `node scripts/format_articles.mjs --check`; see `AGENTS.md` for the publishing standard.

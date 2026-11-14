@@ -128,7 +128,8 @@ def attach(soup, hero, path, seconds):
     style=soup.new_tag("link",rel="stylesheet",href="/assets/article-audio.css")
     soup.head.append(style)
     script=soup.new_tag("script",src="/assets/article-audio.js",defer="")
-    soup.body.append(script)
+    if not soup.select_one('script[src="/assets/article-audio.js"]'):
+        soup.body.append(script)
 
 def main():
     parser=argparse.ArgumentParser()
@@ -176,7 +177,11 @@ def main():
             seconds=duration(cached)
             shutil.copyfile(cached,out/name)
             attach(soup,hero,"/assets/audio/"+name,seconds)
-            path.write_text(str(soup),encoding="utf-8")
+            formatted = subprocess.run(
+                ["node", str(ROOT / "scripts/format_articles.mjs"), "--stdin"],
+                input=str(soup), text=True, capture_output=True, check=True,
+            ).stdout
+            path.write_text(formatted, encoding="utf-8")
             report.append({"article":"/"+str(path.relative_to(args.site)),"audio":"/assets/audio/"+name,
                 "published":published.isoformat(),"duration_seconds":round(seconds,2),
                 "bytes":cached.stat().st_size})

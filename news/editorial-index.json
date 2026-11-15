@@ -316,6 +316,74 @@
       "endDate": "2027-01-02",
       "venue": "The Yard Theatre, Hackney Wick",
       "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "The National Theatre takes its name seriously",
+      "description": "A four-year programme backed by up to £15 million aims to bring theatre and creative training to more than 100,000 young people across England.",
+      "category": "Theatre funding",
+      "sources": [
+        {
+          "label": "Department for Digital, Culture, Media and Sport, 13th November 2026",
+          "url": "https://www.gov.uk/government/news/school-tours-workshops-and-10-tickets-to-open-up-the-magic-of-theatre-to-100000-young-people"
+        },
+        {
+          "label": "WhatsOnStage, 13th November 2026",
+          "url": "https://www.whatsonstage.com/news/over-100000-young-people-to-be-given-access-to-live-theatre-and-training-through-nationwide-initiative-led-by-national-theatre_1737328/"
+        }
+      ],
+      "url": "/news/national-theatre-nationwide-funding.html",
+      "date": "2026-11-15",
+      "source": "https://www.gov.uk/government/news/school-tours-workshops-and-10-tickets-to-open-up-the-magic-of-theatre-to-100000-young-people",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Edinburgh Fringe raises the price of taking a chance",
+      "description": "The Fringe Society has announced higher show registration fees for 2027, ending a freeze that began in 2007.",
+      "category": "Festival news",
+      "sources": [
+        {
+          "label": "Edinburgh Festival Fringe Society, 12th November 2026",
+          "url": "https://www.edfringe.com/about-us/news-and-blog/fringe-show-registration-updates-and-changes-ahead-of-fringe-2027/"
+        },
+        {
+          "label": "Official registration fees, accessed 15th November 2026",
+          "url": "https://www.edfringe.com/take-part/artists/organise-a-show/registration"
+        },
+        {
+          "label": "OpenComedy, 8th November 2026",
+          "url": "https://opencomedy.com/news/edinburgh-fringe-2027-registration-fees/"
+        }
+      ],
+      "url": "/news/edinburgh-fringe-registration-fees-2027.html",
+      "date": "2026-11-15",
+      "source": "https://www.edfringe.com/about-us/news-and-blog/fringe-show-registration-updates-and-changes-ahead-of-fringe-2027/",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "The Yard makes room for Sondheim",
+      "description": "Jay Miller will direct the Hackney Wick theatre’s first musical, Company, ahead of a transfer to Theatr Clwyd and a national tour.",
+      "category": "Theatre production",
+      "startDate": "2027-05-27",
+      "endDate": "2027-07-10",
+      "venue": "The Yard Theatre, Hackney Wick",
+      "sources": [
+        {
+          "label": "The Yard Theatre, official production information, accessed 15th November 2026",
+          "url": "https://www.theyardtheatre.co.uk/events/company"
+        },
+        {
+          "label": "BroadwayWorld, 13th November 2026",
+          "url": "https://www.broadwayworld.com/westend/article/New-Production-of-COMPANY-to-Open-at-The-Yard-Theatre-in-May-2027-20261113"
+        },
+        {
+          "label": "WhatsOnStage, 13th November 2026",
+          "url": "https://www.whatsonstage.com/news/jay-miller-discusses-the-yards-first-musical-and-why-it-had-to-be-sondheim_1737324/"
+        }
+      ],
+      "url": "/news/yard-company-musical-national-tour.html",
+      "date": "2026-11-15",
+      "source": "https://www.theyardtheatre.co.uk/events/company",
+      "imageStatus": "No cleared image used"
     }
   ]
 }

@@ -384,6 +384,60 @@
       "date": "2026-11-15",
       "source": "https://www.theyardtheatre.co.uk/events/company",
       "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Attention: the art of listening when the script can change",
+      "description": "Jules Head and Georgia Bruce bring their formally adventurous two-hander to the Bush Studio, with its original Dublin cast.",
+      "startDate": "2026-11-19",
+      "endDate": "2026-12-23",
+      "venue": "Bush Theatre Studio, Shepherd’s Bush",
+      "source": "https://www.bushtheatre.co.uk/event/attention/",
+      "url": "/london-fringe-theatre/attention-bush-theatre.html",
+      "date": "2026-11-15",
+      "category": "Preview",
+      "sources": [
+        {
+          "label": "Official venue or booking information, accessed 15th November 2026",
+          "url": "https://www.bushtheatre.co.uk/event/attention/"
+        }
+      ],
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Doublespeak: the classics have a few things to say about spin",
+      "description": "A new early modern theatre festival in Camberwell gives emerging performers a chance to examine the politics of language.",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-19",
+      "venue": "Golden Goose Theatre, Camberwell",
+      "source": "https://www.trybooking.com/uk/event/127590",
+      "url": "/london-fringe-theatre/doublespeak-golden-goose.html",
+      "date": "2026-11-15",
+      "category": "Preview",
+      "sources": [
+        {
+          "label": "Official venue or booking information, accessed 15th November 2026",
+          "url": "https://www.trybooking.com/uk/event/127590"
+        }
+      ],
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "The Café: a little shelter in a city that rarely sits still",
+      "description": "Roccia Zhang’s multilingual play brings four London lives together at the Etcetera Theatre during Voila! Theatre Festival.",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-17",
+      "venue": "Etcetera Theatre, Camden",
+      "source": "https://etceteratheatrecamden.squarespace.com/events",
+      "url": "/london-fringe-theatre/the-cafe-etcetera.html",
+      "date": "2026-11-15",
+      "category": "Preview",
+      "sources": [
+        {
+          "label": "Official venue or booking information, accessed 15th November 2026",
+          "url": "https://etceteratheatrecamden.squarespace.com/events"
+        }
+      ],
+      "imageStatus": "No cleared image used"
     }
   ]
 }

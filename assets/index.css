@@ -100,15 +100,6 @@ header {
 .links a:hover {
   text-decoration:underline
 }
-.savednav {
-  border:1px solid var(--ink);
-  border-radius:30px;
-  padding:8px 15px;
-  background:transparent;
-  white-space:nowrap;
-  font-size:12px;
-  font-weight:bold
-}
 .hero {
   padding:42px 0 30px;
   display:grid;
@@ -323,13 +314,13 @@ header {
   letter-spacing:.1em;
   text-transform:uppercase;
   color:var(--muted);
-  padding-right:32px
+  padding-right:0
 }
 .entry h3 {
   font-size:21px;
   line-height:1.15;
   letter-spacing:-.04em;
-  margin:12px 25px 8px 0
+  margin:12px 0 8px 0
 }
 .entry p {
   font-size:13px;
@@ -344,22 +335,6 @@ header {
 }
 .entry a:hover {
   text-decoration:underline
-}
-.bookmark {
-  position:absolute;
-  right:10px;
-  top:10px;
-  background:transparent;
-  border:1px solid var(--line);
-  border-radius:50%;
-  width:30px;
-  height:30px;
-  line-height:1;
-  font-size:17px
-}
-.bookmark.on {
-  background:var(--lime);
-  border-color:var(--ink)
 }
 .more {
   display:block;

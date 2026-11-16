@@ -5,7 +5,7 @@ An independent UK acting-career resource, built as a self-contained static websi
 ## Contents
 - 70 directory entries: 23 training, 15 representation, 11 casting, 13 support and 8 news sources.
 - Eight original career guides and a dated industry briefing.
-- Search, category and region filtering, sorting, pagination, a saved shortlist and career checklist (local browser storage).
+- Search, category and region filtering, sorting, pagination, a career checklist (local browser storage).
 - Original inline SVG editorial illustrations. No third-party photographs or logos are used.
 
 ## Research and product rationale

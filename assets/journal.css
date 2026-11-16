@@ -1,4 +1,5 @@
 :root {
+  --site-gutter:48px;
   --paper:#f5f2eb;
   --ink:#20211d;
   --muted:#62645b;
@@ -36,7 +37,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible {
 .wrap {
   max-width:1260px;
   margin:auto;
-  padding:0 48px
+  padding-inline:var(--site-gutter)
 }
 .eyebrow {
   display:block;
@@ -369,7 +370,7 @@ header {
   overflow-wrap:anywhere
 }
 .footer {
-  padding:30px 0 45px;
+  padding-block:30px 45px;
   display:flex;
   justify-content:space-between;
   gap:25px;
@@ -390,9 +391,6 @@ header {
   display:none!important
 }
 @media(max-width:800px) {
-  .wrap {
-    padding:0 24px
-  }
   .hero {
     grid-template-columns:1fr 1fr;
     gap:20px
@@ -411,9 +409,6 @@ header {
   }
 }
 @media(max-width:580px) {
-  .wrap {
-    padding:0 17px
-  }
   .nav {
     min-height:62px;
     gap:12px;
@@ -490,3 +485,15 @@ header {
 
 /* Use the editorial neutral rather than the mobile browser default blue. */
 button{color:#363830}
+
+/* Shared page inset: align masthead, main content and footer at every width. */
+@media(max-width:950px){:root{--site-gutter:24px}}
+@media(max-width:650px){:root{--site-gutter:17px}}
+header .wrap.nav{padding-inline:var(--site-gutter)}
+header .logo{flex-shrink:0}
+header .navlinks{min-width:0;justify-content:flex-end;margin-inline-start:auto;flex-wrap:wrap}
+header .navlinks a{white-space:nowrap}
+@media(max-width:650px){
+  header .nav{flex-wrap:wrap;gap:8px 14px;padding-block:10px}
+  header .navlinks{font-size:12px;gap:8px 11px}
+}

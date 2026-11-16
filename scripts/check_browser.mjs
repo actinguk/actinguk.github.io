@@ -6,7 +6,7 @@ for(const width of [1440,390]){
  const page=await browser.newPage({viewport:{width,height:900}});
  await page.addInitScript(()=>{window.__seoPerf={lcp:0,cls:0};try{new PerformanceObserver(list=>{for(const e of list.getEntries())window.__seoPerf.lcp=e.startTime}).observe({type:'largest-contentful-paint',buffered:true});new PerformanceObserver(list=>{for(const e of list.getEntries())if(!e.hadRecentInput)window.__seoPerf.cls+=e.value}).observe({type:'layout-shift',buffered:true});}catch(e){}});
  page.on('pageerror',e=>errors.push('JS '+e.message));
- for(const path of ['/','/resources/training/rada.html','/resources/training/lamda.html','/training/','/agents/','/casting/','/guides/','/headshots/','/journal/acting-headshots-london.html','/coaches.html','/journal.html']){
+ for(const path of ['/','/resources/training/rada.html','/resources/training/lamda.html','/training/','/agents/','/casting/','/guides/','/headshots/','/journal/acting-headshots-london.html','/coaches.html','/journal.html','/news/','/london-fringe-theatre/','/news/national-theatre-nationwide-funding.html','/london-fringe-theatre/cranford-orange-tree.html']){
   await page.goto(base+path,{waitUntil:'domcontentloaded',timeout:30000});
   await page.waitForSelector('h1');
   if(path==='/'||path.includes('/rada.html')){await page.waitForLoadState('load');await page.waitForTimeout(300);const perf=await page.evaluate(()=>({lcp:Math.round(window.__seoPerf?.lcp||0),cls:window.__seoPerf?.cls||0,domReady:Math.round(performance.getEntriesByType('navigation')[0]?.domContentLoadedEventEnd||0)}));console.log('LAB',width,path,JSON.stringify(perf));}
@@ -14,6 +14,15 @@ for(const width of [1440,390]){
   console.log(width,path,JSON.stringify(info));
   if(!info.h1||!info.css.length||info.bg==='rgba(0, 0, 0, 0)'||(path.includes('/resources/')&&info.layout!=='grid'))errors.push('Unstyled page '+path+' '+width);
   if(info.scroll>info.width+5)errors.push('Horizontal overflow '+path+' '+width);
+  const spacing=await page.evaluate(()=>{
+    const head=document.querySelector('header .logo'),foot=document.querySelector('footer .logo'),main=document.querySelector('main.wrap, main .wrap'),nav=document.querySelector('header .wrap.nav');
+    if(!head||!main||!nav)return null;
+    const bounds=main.getBoundingClientRect(), style=getComputedStyle(main);
+    const left=bounds.left+parseFloat(style.paddingLeft),right=bounds.right-parseFloat(style.paddingRight);
+    const visible=[...nav.querySelectorAll('a,button')].filter(e=>e.getClientRects().length&&getComputedStyle(e).visibility!=='hidden');
+    return {left,right,logo:head.getBoundingClientRect().left,footer:foot?.getBoundingClientRect().left,navLeft:Math.min(...visible.map(e=>e.getBoundingClientRect().left)),navRight:Math.max(...visible.map(e=>e.getBoundingClientRect().right))};
+  });
+  if(spacing&&(Math.abs(spacing.logo-spacing.left)>2||(spacing.footer!=null&&Math.abs(spacing.footer-spacing.left)>2)||spacing.navLeft<spacing.left-2||spacing.navRight>spacing.right+2))errors.push('Inconsistent header/footer gutters '+path+' '+width+' '+JSON.stringify(spacing));
  }
  await page.goto(base+'/',{waitUntil:'domcontentloaded'});
  await page.keyboard.press('Tab');

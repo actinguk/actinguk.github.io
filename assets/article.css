@@ -1,4 +1,5 @@
 :root {
+  --site-gutter:48px;
   --paper:#f5f2eb;
   --ink:#20211d;
   --muted:#62645b;
@@ -31,7 +32,7 @@ a:focus-visible,button:focus-visible {
 .wrap {
   max-width:1260px;
   margin:auto;
-  padding:0 48px
+  padding-inline:var(--site-gutter)
 }
 header {
   position:sticky;
@@ -235,7 +236,7 @@ header {
 }
 .footer {
   border-top:1px solid var(--line);
-  padding:30px 0 45px;
+  padding-block:30px 45px;
   display:flex;
   justify-content:space-between;
   gap:20px;
@@ -273,9 +274,6 @@ header {
   text-decoration:none
 }
 @media(max-width:900px) {
-  .wrap {
-    padding:0 24px
-  }
   .layout {
     gap:30px
   }
@@ -284,14 +282,11 @@ header {
   }
 }
 @media(max-width:650px) {
-  .wrap {
-    padding:0 17px
-  }
   .nav {
     min-height:65px;
     flex-wrap:wrap;
     gap:7px;
-    padding:10px 0
+    padding-block:10px
   }
   .navlinks {
     gap:11px;
@@ -365,4 +360,16 @@ header {
 .hero .answer-lead {
   color:#363830;
   font-weight:600
+}
+
+/* Shared page inset: align masthead, main content and footer at every width. */
+@media(max-width:950px){:root{--site-gutter:24px}}
+@media(max-width:650px){:root{--site-gutter:17px}}
+header .wrap.nav{padding-inline:var(--site-gutter)}
+header .logo{flex-shrink:0}
+header .navlinks{min-width:0;justify-content:flex-end;margin-inline-start:auto;flex-wrap:wrap}
+header .navlinks a{white-space:nowrap}
+@media(max-width:650px){
+  header .nav{gap:8px 14px}
+  header .navlinks{gap:8px 11px}
 }

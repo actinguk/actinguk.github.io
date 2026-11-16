@@ -1,4 +1,5 @@
 :root {
+  --site-gutter:48px;
   --paper:#f5f2eb;
   --ink:#20211d;
   --muted:#62645b;
@@ -41,7 +42,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible {
 .wrap {
   max-width:1260px;
   margin:auto;
-  padding:0 48px
+  padding-inline:var(--site-gutter)
 }
 .eyebrow {
   font-size:11px;
@@ -513,9 +514,6 @@ header {
   color:var(--muted)
 }
 @media(max-width:950px) {
-  .wrap {
-    padding:0 24px
-  }
   .links {
     gap:12px
   }
@@ -534,9 +532,6 @@ header {
   }
 }
 @media(max-width:650px) {
-  .wrap {
-    padding:0 17px
-  }
   .nav {
     min-height:62px;
     flex-wrap:wrap;
@@ -919,3 +914,10 @@ header {
     font-size:27px
   }
 }
+
+/* Shared page inset: align masthead, main content and footer at every width. */
+@media(max-width:950px){:root{--site-gutter:24px}}
+@media(max-width:650px){:root{--site-gutter:17px}}
+header .wrap.nav{padding-inline:var(--site-gutter)}
+header .logo{flex-shrink:0}
+@media(max-width:900px){header .mobile{margin-inline-start:auto}}

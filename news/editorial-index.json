@@ -516,6 +516,63 @@
         }
       ],
       "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Rambert takes It’s a Sin back to the dancefloor",
+      "description": "A new trailer offers a first look at the dance adaptation of Russell T Davies’s television drama, ahead of its Manchester premiere.",
+      "url": "/news/rambert-its-a-sin-trailer.html",
+      "date": "2026-11-16",
+      "category": "Theatre production",
+      "source": "https://rambert.org.uk/whats-on/its-a-sin/",
+      "sources": [
+        {
+          "label": "Official production information, accessed 16th November 2026",
+          "url": "https://rambert.org.uk/whats-on/its-a-sin/"
+        },
+        {
+          "label": "Independent reporting",
+          "url": "https://www.theguardian.com/stage/2026/nov/16/stage-version-tv-series-its-a-sin-trailer"
+        }
+      ],
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Hamnet leaves Stratford for its first UK tour",
+      "description": "The RSC and Neal Street stage adaptation will begin a nationwide tour in Salford in September 2027, with casting still to come.",
+      "url": "/news/hamnet-first-uk-tour.html",
+      "date": "2026-11-16",
+      "category": "Theatre production",
+      "source": "https://www.rsc.org.uk/news/hamnet-heads-on-first-uk-tour",
+      "sources": [
+        {
+          "label": "Official production information, accessed 16th November 2026",
+          "url": "https://www.rsc.org.uk/news/hamnet-heads-on-first-uk-tour"
+        },
+        {
+          "label": "Independent reporting",
+          "url": "https://www.whatsonstage.com/news/hamnet-to-embark-on-first-uk-tour_1737199/"
+        }
+      ],
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Matt Henry takes the classroom in To Sir, With Love",
+      "description": "The Olivier Award-winning performer leads a new musical adaptation touring the UK from April 2027.",
+      "url": "/news/to-sir-with-love-matt-henry.html",
+      "date": "2026-11-16",
+      "category": "Casting news",
+      "source": "https://www.atgtickets.com/shows/to-sir-with-love/",
+      "sources": [
+        {
+          "label": "Official production information, accessed 16th November 2026",
+          "url": "https://www.atgtickets.com/shows/to-sir-with-love/"
+        },
+        {
+          "label": "Independent reporting",
+          "url": "https://www.whatsonstage.com/news/to-sir-with-love-musical-to-tour-with-initial-casting-confirmed_1737234/"
+        }
+      ],
+      "imageStatus": "No cleared image used"
     }
   ]
 }

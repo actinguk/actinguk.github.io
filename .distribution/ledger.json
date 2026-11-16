@@ -62,9 +62,9 @@
       "at": "2026-11-14T18:14:04.718Z"
     },
     "https://actinguk.com/": {
-      "hash": "d2915ef0725332f578adb4a630a921babf1dc56d5941965a68a3e32e1259f9df",
+      "hash": "bb53c09cb2ac9bbd4280e2ff7d2ffb28a6a364f9a0a28bb244e9b2494133e4e0",
       "status": 200,
-      "at": "2026-11-16T12:33:57.595Z"
+      "at": "2026-11-16T12:38:46.528Z"
     },
     "https://actinguk.com/news/": {
       "hash": "f966066559eb6a031c47826b508088faee74b8637ead9895ede5626c2a4e648b",
@@ -115,192 +115,6 @@
     }
   },
   "attempts": [
-    {
-      "at": "2026-11-16T03:23:23.417Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/old-vic-rupert-goold-first-season.html"
-    },
-    {
-      "at": "2026-11-16T03:23:23.433Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/relative-motion-southwark-playhouse.html"
-    },
-    {
-      "at": "2026-11-16T03:23:23.462Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/bectu-ciisa-workplace-standards.html"
-    },
-    {
-      "at": "2026-11-16T03:23:23.521Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/horrible-things-frankie-thompson.html"
-    },
-    {
-      "at": "2026-11-16T03:23:23.575Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/lover-girl-temi-wilkey.html"
-    },
-    {
-      "at": "2026-11-16T03:24:09.085Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/i-can-see-the-sun.html"
-    },
-    {
-      "at": "2026-11-16T03:24:09.086Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/lear-ian-mckellen-yard.html"
-    },
-    {
-      "at": "2026-11-16T03:24:09.201Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/uk-screen-statistics.html"
-    },
-    {
-      "at": "2026-11-16T03:24:09.216Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/bradford-venue-closure.html"
-    },
-    {
-      "at": "2026-11-16T03:24:09.285Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/casting-fees-appeal.html"
-    },
-    {
-      "at": "2026-11-16T03:24:09.324Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/dogstar.html"
-    },
-    {
-      "at": "2026-11-16T03:24:54.811Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/calendar/"
-    },
-    {
-      "at": "2026-11-16T03:24:54.941Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/"
-    },
-    {
-      "at": "2026-11-16T03:24:55.008Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/"
-    },
-    {
-      "at": "2026-11-16T03:24:55.011Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/the-moth.html"
-    },
-    {
-      "at": "2026-11-16T04:58:15.801Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/national-theatre-nationwide-funding.html"
-    },
-    {
-      "at": "2026-11-16T04:58:15.802Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/doublespeak-golden-goose.html"
-    },
-    {
-      "at": "2026-11-16T04:58:15.811Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/yard-company-musical-national-tour.html"
-    },
-    {
-      "at": "2026-11-16T04:58:15.917Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/edinburgh-fringe-registration-fees-2027.html"
-    },
-    {
-      "at": "2026-11-16T04:58:15.919Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/the-cafe-etcetera.html"
-    },
-    {
-      "at": "2026-11-16T04:58:15.921Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/attention-bush-theatre.html"
-    },
-    {
-      "at": "2026-11-16T04:59:01.038Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/barbara-broccoli-nfts-president.html"
-    },
-    {
-      "at": "2026-11-16T04:59:01.038Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/old-vic-rupert-goold-first-season.html"
-    },
-    {
-      "at": "2026-11-16T04:59:01.122Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/bectu-ciisa-workplace-standards.html"
-    },
-    {
-      "at": "2026-11-16T04:59:01.123Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/relative-motion-southwark-playhouse.html"
-    },
-    {
-      "at": "2026-11-16T04:59:01.130Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/horrible-things-frankie-thompson.html"
-    },
-    {
-      "at": "2026-11-16T04:59:01.228Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/lover-girl-temi-wilkey.html"
-    },
-    {
-      "at": "2026-11-16T04:59:46.476Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/casting-fees-appeal.html"
-    },
-    {
-      "at": "2026-11-16T04:59:46.476Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/lear-ian-mckellen-yard.html"
-    },
-    {
-      "at": "2026-11-16T04:59:46.479Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/uk-screen-statistics.html"
-    },
-    {
-      "at": "2026-11-16T04:59:46.481Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/i-can-see-the-sun.html"
-    },
     {
       "at": "2026-11-16T04:59:46.481Z",
       "service": "live",
@@ -1318,6 +1132,194 @@
       "service": "WebSub",
       "status": 204,
       "detail": "https://actinguk.com/industry-rss.xml"
+    },
+    {
+      "at": "2026-11-16T12:34:58.481Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/wits-end-circle-star.html"
+    },
+    {
+      "at": "2026-11-16T12:34:58.482Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/cranford-orange-tree.html"
+    },
+    {
+      "at": "2026-11-16T12:34:58.573Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/roleplay-soho-theatre.html"
+    },
+    {
+      "at": "2026-11-16T12:34:58.574Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/to-sir-with-love-matt-henry.html"
+    },
+    {
+      "at": "2026-11-16T12:34:58.655Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/rambert-its-a-sin-trailer.html"
+    },
+    {
+      "at": "2026-11-16T12:34:58.665Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/hamnet-first-uk-tour.html"
+    },
+    {
+      "at": "2026-11-16T12:35:43.791Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/doublespeak-golden-goose.html"
+    },
+    {
+      "at": "2026-11-16T12:35:43.804Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/edinburgh-fringe-registration-fees-2027.html"
+    },
+    {
+      "at": "2026-11-16T12:35:43.885Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/national-theatre-nationwide-funding.html"
+    },
+    {
+      "at": "2026-11-16T12:35:43.886Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/yard-company-musical-national-tour.html"
+    },
+    {
+      "at": "2026-11-16T12:35:43.973Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/attention-bush-theatre.html"
+    },
+    {
+      "at": "2026-11-16T12:35:44.001Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/the-cafe-etcetera.html"
+    },
+    {
+      "at": "2026-11-16T12:36:29.330Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/barbara-broccoli-nfts-president.html"
+    },
+    {
+      "at": "2026-11-16T12:36:29.332Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/bectu-ciisa-workplace-standards.html"
+    },
+    {
+      "at": "2026-11-16T12:36:29.541Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/lover-girl-temi-wilkey.html"
+    },
+    {
+      "at": "2026-11-16T12:36:29.548Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/horrible-things-frankie-thompson.html"
+    },
+    {
+      "at": "2026-11-16T12:36:29.621Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/old-vic-rupert-goold-first-season.html"
+    },
+    {
+      "at": "2026-11-16T12:36:29.623Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/relative-motion-southwark-playhouse.html"
+    },
+    {
+      "at": "2026-11-16T12:37:15.058Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/bradford-venue-closure.html"
+    },
+    {
+      "at": "2026-11-16T12:37:15.060Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/dogstar.html"
+    },
+    {
+      "at": "2026-11-16T12:37:15.161Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/uk-screen-statistics.html"
+    },
+    {
+      "at": "2026-11-16T12:37:15.176Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/lear-ian-mckellen-yard.html"
+    },
+    {
+      "at": "2026-11-16T12:37:15.262Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/i-can-see-the-sun.html"
+    },
+    {
+      "at": "2026-11-16T12:37:15.268Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/casting-fees-appeal.html"
+    },
+    {
+      "at": "2026-11-16T12:38:00.580Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/calendar/"
+    },
+    {
+      "at": "2026-11-16T12:38:00.582Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/"
+    },
+    {
+      "at": "2026-11-16T12:38:00.582Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/the-moth.html"
+    },
+    {
+      "at": "2026-11-16T12:38:00.583Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/"
+    },
+    {
+      "at": "2026-11-16T12:38:00.588Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/follow/"
+    },
+    {
+      "at": "2026-11-16T12:38:45.882Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/casting-opportunities/"
+    },
+    {
+      "at": "2026-11-16T12:38:46.528Z",
+      "service": "IndexNow",
+      "status": 200,
+      "detail": [
+        "https://actinguk.com/"
+      ]
     }
   ]
 }

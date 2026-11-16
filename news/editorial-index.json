@@ -438,6 +438,84 @@
         }
       ],
       "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Cranford: the quiet art of making a room laugh",
+      "description": "Tamsin Greig leads an ensemble in Richmond, where Elizabeth Gaskell’s village becomes a study in comic timing and private grief.",
+      "url": "/london-fringe-theatre/cranford-orange-tree.html",
+      "date": "2026-11-16",
+      "category": "Review roundup",
+      "venue": "Orange Tree Theatre, Richmond",
+      "startDate": "2026-11-03",
+      "endDate": "2027-01-16",
+      "source": "https://orangetreetheatre.co.uk/whats-on/cranford/",
+      "sources": [
+        {
+          "label": "Official production and booking, accessed 16th November 2026",
+          "url": "https://orangetreetheatre.co.uk/whats-on/cranford/"
+        },
+        {
+          "label": "Independent review",
+          "url": "https://www.theguardian.com/stage/2026/nov/15/cranford-review-orange-tree-theatre-tamsin-greig"
+        },
+        {
+          "label": "Independent review",
+          "url": "https://thespyinthestalls.com/2026/11/cranford/"
+        }
+      ],
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Wits End: a funeral with rather too much unfinished business",
+      "description": "Estée Stimler’s family comedy puts grief and obligation in a room of fifty-five seats.",
+      "url": "/london-fringe-theatre/wits-end-circle-star.html",
+      "date": "2026-11-16",
+      "category": "Review roundup",
+      "venue": "Circle & Star Theatre, Hampstead",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-22",
+      "source": "https://www.tickettailor.com/events/circleandstar/2402801",
+      "sources": [
+        {
+          "label": "Official production and booking, accessed 16th November 2026",
+          "url": "https://www.tickettailor.com/events/circleandstar/2402801"
+        },
+        {
+          "label": "Independent review",
+          "url": "https://www.londonpubtheatres.com/review-wits-end-by-estee-stimler-at-circle-star-theatre-9-22-november-2026"
+        },
+        {
+          "label": "Venue programme",
+          "url": "https://circleandstar.com/schedule/"
+        }
+      ],
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Roleplay: when the personal brand becomes the part",
+      "description": "Hannah Reilly’s solo show reaches its final week at Soho Theatre, with critics admiring the performer more consistently than the play.",
+      "url": "/london-fringe-theatre/roleplay-soho-theatre.html",
+      "date": "2026-11-16",
+      "category": "Review roundup",
+      "venue": "Soho Theatre, Dean Street",
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-21",
+      "source": "https://sohotheatre.com/events/roleplay/",
+      "sources": [
+        {
+          "label": "Official production and booking, accessed 16th November 2026",
+          "url": "https://sohotheatre.com/events/roleplay/"
+        },
+        {
+          "label": "Independent review",
+          "url": "https://www.broadwayworld.com/westend/article/Review-ROLEPLAY-Soho-Theatre-20261027"
+        },
+        {
+          "label": "Independent review",
+          "url": "https://www.britishtheatreguide.info/reviews/roleplay-soho-theatre-l-26161"
+        }
+      ],
+      "imageStatus": "No cleared image used"
     }
   ]
 }

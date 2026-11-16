@@ -30,7 +30,9 @@ button,a,input,select {
   touch-action:manipulation
 }
 button {
-  cursor:pointer
+  cursor:pointer;
+  color:#363830;
+  -webkit-tap-highlight-color:transparent
 }
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible {
   outline:3px solid #8d9e26;
@@ -176,16 +178,6 @@ header {
   letter-spacing:.15em;
   text-transform:uppercase
 }
-.strip {
-  display:flex;
-  justify-content:space-between;
-  gap:20px;
-  border-block:1px solid var(--line);
-  padding:16px 0;
-  color:var(--muted);
-  font-size:12px;
-  letter-spacing:.04em
-}
 .section {
   padding:75px 0;
   border-bottom:1px solid var(--line)
@@ -244,12 +236,6 @@ header {
   color:var(--muted);
   margin:0;
   max-width:90%
-}
-.route .arrow {
-  position:absolute;
-  right:20px;
-  top:18px;
-  font-size:23px
 }
 .directory {
   background:var(--white);
@@ -589,11 +575,7 @@ header {
     min-height:270px;
     max-height:320px
   }
-  .strip {
-    flex-wrap:wrap;
-    gap:8px
-  }
-  .section {
+    .section {
     padding:46px 0
   }
   .head {

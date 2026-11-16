@@ -125,11 +125,13 @@ def attach(soup, hero, path, seconds):
     speed.append(select)
     block.extend([label,desc,audio,speed])
     hero.insert_after(block)
-    style=soup.new_tag("link",rel="stylesheet",href="/assets/article-audio.css")
+    style=soup.new_tag("link",rel="stylesheet",href="/assets/article-audio.css?v=20261116-3")
     soup.head.append(style)
-    script=soup.new_tag("script",src="/assets/article-audio.js",defer="")
-    if not soup.select_one('script[src="/assets/article-audio.js"]'):
-        soup.body.append(script)
+    script=soup.select_one('script[src="/assets/article-audio.js"]')
+    if script:
+        script["src"]="/assets/article-audio.js?v=20261116-3"
+    else:
+        soup.body.append(soup.new_tag("script",src="/assets/article-audio.js?v=20261116-3",defer=""))
 
 def main():
     parser=argparse.ArgumentParser()

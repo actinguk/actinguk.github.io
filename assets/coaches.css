@@ -165,3 +165,6 @@
     font-size:27px
   }
 }
+
+/* Use the editorial neutral rather than the mobile browser default blue. */
+button{color:#363830}

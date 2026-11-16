@@ -19,3 +19,7 @@ The formatter refuses unbalanced markup or semantic changes to tags, attributes,
 ## Site favicon
 
 All new HTML pages must retain the shared root favicon and manifest links. The Pages build runs `scripts/install_favicons.py` to ensure all published HTML pages have the same icons, including after audio fallback. Use the existing formatted article head for future articles.
+
+## Visual design
+
+Use dark-grey text for interactive controls, including mobile buttons. Do not add decorative northeast-arrow symbols (↗) to links, route cards or buttons. Keep link text and destinations intact. Do not reintroduce the directory shortlist, saved filter, heart controls, or resource-saving copy. Article audio uses the shared headline speaker control; preserve the MP3 URLs and existing narration, and never regenerate audio for a visual-only change.

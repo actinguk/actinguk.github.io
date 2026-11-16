@@ -487,3 +487,6 @@ header {
     scroll-behavior:auto!important
   }
 }
+
+/* Use the editorial neutral rather than the mobile browser default blue. */
+button{color:#363830}

@@ -31,4 +31,5 @@
 <div class="hero"><span class="eyebrow">ACTING UK / Independent editorial resource</span><h1>{{TITLE}}</h1><p class="lead">{{DESCRIPTION}}</p></div>
 <div class="layout"><div class="content">{{BODY}}</div><aside class="side"><span class="eyebrow">Keep exploring</span><h2>Acting UK resources</h2><a href="/directory.html">Full resource directory</a><a href="/guides/">Career guides</a><a href="/journal.html">The Actor’s Journal</a><a href="/editorial-policy/">How we research our guides</a></aside></div>
 <footer class="footer"><div><a class="logo" href="/">Acting<span> UK</span></a><p>Independent guidance for UK actors.</p></div><div><a href="/about/">About</a> · <a href="/editorial-policy/">Editorial policy</a> · <a href="/directory-methodology/">Directory methodology</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a></div></footer>
-</main></body></html>
+</main><script src="/assets/analytics.js" defer></script>
+</body></html>

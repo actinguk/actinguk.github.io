@@ -83,6 +83,8 @@ jobs:
         run: python scripts/clean_decorative_arrows.py --site _site
       - name: Install and verify shared favicons
         run: python scripts/install_favicons.py --site _site
+      - name: Install privacy-conscious analytics on all published pages
+        run: python scripts/install_analytics.py --site _site
       - name: Upload preview MP3s
         if: steps.mode.outputs.deploy != 'true'
         uses: actions/upload-artifact@v6

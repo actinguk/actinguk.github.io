@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
+      - name: Check analytics JS and site-wide tracking tags
+        run: |
+          node --check analytics/worker.js
+          node --check analytics/dashboard.js
+          node --check assets/analytics.js
+          python3 scripts/install_analytics.py --check
       - name: Validate static SEO
         run: python3 scripts/validate_seo.py
   browser:

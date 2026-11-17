@@ -6,7 +6,7 @@ from pathlib import Path
 
 TAG = '<script src="/assets/analytics.js" defer></script>'
 BODY_CLOSE = re.compile(r'(?m)^[ ]*</body[ ]*>|</body[ ]*>', re.IGNORECASE)
-EXCLUDE = {".git", ".github", "scripts", "templates", "content", "_site", "analytics"}
+EXCLUDE = {".git", ".github", "scripts", "templates", "content", "_site", "analytics", "statistics"}
 
 def tracked(source):
     if TAG in source or not BODY_CLOSE.search(source):

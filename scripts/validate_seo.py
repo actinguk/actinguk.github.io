@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE="https://actinguk.com"
 subprocess.run(["node", str(ROOT / "scripts/format_articles.mjs"), "--check"], check=True)
 REDIRECTS={"journal/first-headshots.html":"https://actinguk.com/journal/acting-headshots-london.html"}
-EXCLUDE={"templates","content","scripts",".github",".git"}
+EXCLUDE={"templates","content","scripts",".github",".git","statistics"}
 class Page(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)

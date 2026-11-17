@@ -5,13 +5,13 @@ import re
 from pathlib import Path
 
 TAG = '<script src="/assets/analytics.js" defer></script>'
-BODY_CLOSE = re.compile(r'(^[ ]*)</body[ ]*>', re.IGNORECASE | re.MULTILINE)
+BODY_CLOSE = re.compile(r'(?m)^[ ]*</body[ ]*>|</body[ ]*>', re.IGNORECASE)
 EXCLUDE = {".git", ".github", "scripts", "templates", "content", "_site", "analytics"}
 
 def tracked(source):
     if TAG in source or not BODY_CLOSE.search(source):
         return source
-    return BODY_CLOSE.sub(lambda m: m.group(1) + TAG + "\n" + m.group(0), source, count=1)
+    return BODY_CLOSE.sub(lambda m: re.match(r"^[ ]*", m.group(0)).group(0) + TAG + "\n" + m.group(0), source, count=1)
 
 def main():
     parser = argparse.ArgumentParser()

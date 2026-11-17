@@ -8,7 +8,7 @@ const SESSION_MS = 12 * 60 * 60 * 1000;
 const encoder = new TextEncoder();
 
 function respond(body, status = 200, type = "text/html; charset=utf-8", extras = {}) {
-  return new Response(body, {status, headers: {
+  return new Response(status === 204 || status === 304 ? null : body, {status, headers: {
     "Content-Type": type,
     "Cache-Control": "no-store",
     "X-Content-Type-Options": "nosniff",
@@ -192,7 +192,10 @@ export default {
     try {
       if(pathname==="/collect" && request.method==="POST")return await collect(request,env);
       if(pathname==="/login" && request.method==="POST")return await login(request,env);
-      if(pathname==="/logout" && request.method==="POST")return respond("",303,"text/plain",{"Location":"/","Set-Cookie":"au_session=; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=0"});
+      if(pathname==="/logout" && request.method==="POST") {
+        if (request.headers.get("Origin") !== new URL(request.url).origin) return respond("Forbidden",403,"text/plain");
+        return respond("",303,"text/plain",{"Location":"/","Set-Cookie":"au_session=; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=0"});
+      }
       if(pathname==="/app.css" && request.method==="GET")return respond(STYLES,200,"text/css; charset=utf-8");
       const authorised=await session(request,env);
       if(pathname==="/" && request.method==="GET")return respond(authorised?DASHBOARD:LOGIN);

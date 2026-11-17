@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 TAG = '<script src="/assets/analytics.js" defer></script>'
-BODY_CLOSE = re.compile(r'(^[ \\t]*)</body\\s*>', re.IGNORECASE | re.MULTILINE)
+BODY_CLOSE = re.compile(r'(^[ ]*)</body[ ]*>', re.IGNORECASE | re.MULTILINE)
 EXCLUDE = {".git", ".github", "scripts", "templates", "content", "_site", "analytics"}
 
 def tracked(source):

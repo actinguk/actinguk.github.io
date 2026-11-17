@@ -15,6 +15,7 @@ jobs:
           node --check analytics/worker.js
           node --check analytics/dashboard.js
           node --check assets/analytics.js
+          node --test analytics/worker.test.mjs
           python3 scripts/install_analytics.py --check
       - name: Validate static SEO
         run: python3 scripts/validate_seo.py

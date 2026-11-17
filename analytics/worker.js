@@ -187,7 +187,11 @@ async function importCSV(request, env) {
 export default {
   async fetch(request,env) {
     const pathname=new URL(request.url).pathname;
-    if(pathname==="/health")return json({ready:!!(env.DB&&env.ADMIN_PASSWORD&&env.SESSION_SECRET&&env.HASH_SECRET)});
+    if(pathname==="/health") {
+      let ready=!!(env.DB&&env.ADMIN_PASSWORD&&env.SESSION_SECRET&&env.HASH_SECRET);
+      if(ready) {try{await env.DB.prepare("SELECT 1 FROM au_events LIMIT 1").first();}catch{ready=false;}}
+      return json({ready});
+    }
     if(!env.DB || !env.ADMIN_PASSWORD || !env.SESSION_SECRET || !env.HASH_SECRET) return respond("Analytics not configured",503,"text/plain");
     try {
       if(pathname==="/collect" && request.method==="POST")return await collect(request,env);

@@ -588,6 +588,60 @@
         }
       ],
       "imageStatus": "Text-only: direct image response could not be verified"
+    },
+    {
+      "title": "Sirocco: the Noël Coward play that refused to behave",
+      "description": "The Finborough revisits Coward’s notorious early failure, restoring censored material and asking whether a scandal can outlive its original audience.",
+      "url": "/london-fringe-theatre/sirocco-finborough-coward.html",
+      "date": "2026-11-17",
+      "category": "Preview",
+      "source": "https://www.finboroughtheatre.co.uk/productions/sirocco",
+      "sources": [
+        {
+          "label": "Official production and booking",
+          "url": "https://www.finboroughtheatre.co.uk/productions/sirocco"
+        },
+        {
+          "label": "Venue information",
+          "url": "https://www.finboroughtheatre.co.uk/press-resources"
+        }
+      ],
+      "startDate": "2026-11-24",
+      "endDate": "2026-12-22",
+      "venue": "Finborough Theatre",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Finborough_Theatre%2C_near_Earl%27s_Court%2C_London.JPG/500px-Finborough_Theatre%2C_near_Earl%27s_Court%2C_London.JPG",
+        "alt": "Exterior of the Finborough Theatre near Earl’s Court, contextual photograph",
+        "credit": "Kim Traynor",
+        "source": "https://commons.wikimedia.org/wiki/File:Finborough_Theatre,_near_Earl%27s_Court,_London.JPG",
+        "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "width": 500,
+        "height": 672,
+        "kind": "contextual photograph",
+        "label": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "title": "The Master Builder: ambition begins to look like fear",
+      "description": "Greg Hicks stars in David Edgar’s version of Ibsen at the Arcola, where the older artist’s dread of being replaced remains painfully current.",
+      "url": "/london-fringe-theatre/master-builder-arcola-ibsen.html",
+      "date": "2026-11-17",
+      "category": "Preview",
+      "source": "https://www.arcolatheatre.com/event/the-master-builder/",
+      "sources": [
+        {
+          "label": "Official production and booking",
+          "url": "https://www.arcolatheatre.com/event/the-master-builder/"
+        },
+        {
+          "label": "Venue information",
+          "url": "https://www.arcolatheatre.com/"
+        }
+      ],
+      "startDate": "2026-10-16",
+      "endDate": "2026-11-21",
+      "venue": "Arcola Theatre, Studio 1",
+      "imageStatus": "No cleared image used"
     }
   ]
 }

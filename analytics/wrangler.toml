@@ -1,0 +1,15 @@
+name = "actinguk-analytics"
+main = "worker.js"
+compatibility_date = "2026-11-17"
+workers_dev = true
+
+# Dedicated D1 database is created once with:
+# npx wrangler d1 create actinguk-analytics
+# Add the returned database_id here BEFORE deploying.
+[[d1_databases]]
+binding = "DB"
+database_name = "actinguk-analytics"
+database_id = "REPLACE_WITH_NEW_D1_DATABASE_ID"
+
+[triggers]
+crons = ["11 3 * * *"]

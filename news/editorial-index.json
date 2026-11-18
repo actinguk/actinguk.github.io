@@ -642,6 +642,30 @@
       "endDate": "2026-11-21",
       "venue": "Arcola Theatre, Studio 1",
       "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "The BFI backs a more thoughtful approach to screen technology",
+      "description": "New funding for NFTS and Falmouth aims to help independent filmmakers work with emerging technology without losing sight of the people involved.",
+      "url": "/news/bfi-innovation-fund-ethical-screen-technology-2026.html",
+      "date": "2026-11-18",
+      "category": "Screen training",
+      "source": "https://www.bfi.org.uk/news/bfi-innovation-challenge-fund-invests-guidance-working-with-emerging-technology-independent-film-sector",
+      "sources": [
+        {
+          "label": "BFI announcement, 11th November 2026",
+          "url": "https://www.bfi.org.uk/news/bfi-innovation-challenge-fund-invests-guidance-working-with-emerging-technology-independent-film-sector"
+        }
+      ],
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/BFI_Southbank_2025-08-21.jpg/960px-BFI_Southbank_2025-08-21.jpg",
+        "alt": "BFI Southbank building in London",
+        "credit": "Ewan Munro",
+        "source": "https://commons.wikimedia.org/wiki/File:BFI_Southbank_2025-08-21.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "width": 960,
+        "height": 542,
+        "kind": "contextual photograph"
+      }
     }
   ]
 }

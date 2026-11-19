@@ -373,3 +373,20 @@ header .navlinks a{white-space:nowrap}
   header .nav{gap:8px 14px}
   header .navlinks{gap:8px 11px}
 }
+
+/* Single-column editorials: constrain the reading measure, without an empty sidebar. */
+.editorial-essay .essay-prose {
+  max-width:740px;
+  padding:34px 0 42px;
+}
+.editorial-essay .essay-prose p {
+  margin:0 0 19px;
+  line-height:1.8;
+}
+.editorial-essay article + p {
+  margin:0 0 46px;
+  font-size:14px;
+}
+@media(max-width:650px) {
+  .editorial-essay .essay-prose { padding:24px 0 32px; }
+}

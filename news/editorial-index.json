@@ -836,6 +836,66 @@
       "editorialType": "Original analysis / evergreen commentary",
       "imageStatus": "Image pending",
       "audioStatus": "Narration pending"
+    },
+    {
+      "title": "The reader is part of the audition, even when unseen",
+      "description": "Why the off-camera voice, listening and the space between lines matter more than an elaborate self-tape set-up.",
+      "url": "/news/self-tape-reader-performance-partner.html",
+      "date": "2026-11-21",
+      "category": "Audition craft",
+      "editorialType": "Original analysis / evergreen commentary",
+      "imageStatus": "Image pending",
+      "audioStatus": "Narration pending"
+    },
+    {
+      "title": "An agent meeting is a conversation, not a coronation",
+      "description": "What actors can usefully ask about representation, communication and expectations before agreeing to work together.",
+      "url": "/news/acting-agent-meeting-questions.html",
+      "date": "2026-11-21",
+      "category": "Representation",
+      "editorialType": "Original analysis / evergreen commentary",
+      "imageStatus": "Image pending",
+      "audioStatus": "Narration pending"
+    },
+    {
+      "title": "A synthetic voice still raises a human question",
+      "description": "An actor-focused explanation of why recording consent and future voice reuse should be discussed separately.",
+      "url": "/news/ai-voice-consent-actors-contracts.html",
+      "date": "2026-11-21",
+      "category": "Screen technology",
+      "editorialType": "Original analysis / evergreen commentary",
+      "imageStatus": "Image pending",
+      "audioStatus": "Narration pending"
+    },
+    {
+      "title": "In a fringe theatre, the audience is part of the weather",
+      "description": "How proximity changes an actor's scale, attention and relationship with a small London audience.",
+      "url": "/london-fringe-theatre/fringe-theatre-audience-proximity.html",
+      "date": "2026-11-21",
+      "category": "Performance essay",
+      "editorialType": "Original analysis / evergreen commentary",
+      "imageStatus": "Image pending",
+      "audioStatus": "Narration pending"
+    },
+    {
+      "title": "The fringe rehearsal clock is always running",
+      "description": "A practical essay on protecting discovery and ensemble trust when a small production has limited rehearsal time.",
+      "url": "/london-fringe-theatre/fringe-rehearsal-budget-time.html",
+      "date": "2026-11-21",
+      "category": "Rehearsal practice",
+      "editorialType": "Original analysis / evergreen commentary",
+      "imageStatus": "Image pending",
+      "audioStatus": "Narration pending"
+    },
+    {
+      "title": "The sound of a small stage includes silence",
+      "description": "Why intimate theatre needs restraint in sound design as much as invention.",
+      "url": "/london-fringe-theatre/fringe-sound-design-silence.html",
+      "date": "2026-11-21",
+      "category": "Sound design essay",
+      "editorialType": "Original analysis / evergreen commentary",
+      "imageStatus": "Image pending",
+      "audioStatus": "Narration pending"
     }
   ]
 }

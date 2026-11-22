@@ -896,6 +896,69 @@
       "editorialType": "Original analysis / evergreen commentary",
       "imageStatus": "Image pending",
       "audioStatus": "Narration pending"
+    },
+    {
+      "title": "Elsinore leads the 2026 British Independent Film Awards nominations",
+      "description": "Simon Stone’s Ian Charleson drama leads the BIFA field with 12 nominations ahead of December’s ceremony.",
+      "url": "/news/bifa-2026-elsinore-nominations.html",
+      "date": "2026-11-22",
+      "category": "Film awards",
+      "source": "https://www.bfi.org.uk/news/nominations-announced-british-independent-film-awards-2026",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "The Sorcerer’s Apprentice prepares for its Manchester stage premiere",
+      "description": "A ten-strong cast brings Richard Hough and Alexander S Bermange’s musical to HOME from 27th November.",
+      "url": "/news/sorcerers-apprentice-home-manchester-premiere.html",
+      "date": "2026-11-22",
+      "category": "Theatre production",
+      "source": "https://www.whatsonstage.com/news/the-sorcerers-apprentice-musical-announces-complete-casting_1732430/",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Elsinore begins its US cinema release ahead of January’s UK opening",
+      "description": "Simon Stone’s film about Ian Charleson reached selected US cinemas on 20th November; its UK release is set for 29th January.",
+      "url": "/news/elsinore-us-release-uk-january-2027.html",
+      "date": "2026-11-22",
+      "category": "Screen release",
+      "source": "https://www.bfi.org.uk/london-film-festival/news/simon-stone-elsinore-70th-bfi-london-film-festival",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Noël Coward’s Sirocco returns to London after 99 years at the Finborough",
+      "description": "Brigid Larmour’s new version opens at the Finborough Theatre on 24th November and runs until 22nd December.",
+      "url": "/london-fringe-theatre/sirocco-finborough-noel-coward-2026.html",
+      "date": "2026-11-22",
+      "category": "Production preview",
+      "source": "https://www.finboroughtheatre.co.uk/productions/sirocco",
+      "venue": "Finborough Theatre",
+      "startDate": "2026-11-24",
+      "endDate": "2026-12-22",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "The Human Voice at the Cockpit puts Elliot Pritchard on the line",
+      "description": "A new queer-inflected adaptation of Jean Cocteau’s monologue runs from 24th November to 5th December.",
+      "url": "/london-fringe-theatre/human-voice-cockpit-elliot-pritchard-2026.html",
+      "date": "2026-11-22",
+      "category": "Production preview",
+      "source": "https://www.thecockpit.org.uk/node/2896",
+      "venue": "The Cockpit",
+      "startDate": "2026-11-24",
+      "endDate": "2026-12-05",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Fly, You Fools! brings a miniature Middle-earth to Southwark Playhouse",
+      "description": "Recent Cutbacks’ Lord of the Rings parody opens at Southwark Playhouse Borough on 25th November.",
+      "url": "/london-fringe-theatre/fly-you-fools-southwark-playhouse-2026.html",
+      "date": "2026-11-22",
+      "category": "Production preview",
+      "source": "https://southwarkplayhouse.co.uk/productions/fly-you-fools/",
+      "venue": "Southwark Playhouse Borough, The Large",
+      "startDate": "2026-11-25",
+      "endDate": "2027-01-16",
+      "imageStatus": "No cleared image used"
     }
   ]
 }

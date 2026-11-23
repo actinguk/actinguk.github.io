@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Remove decorative northeast arrows from published link text, not URLs."""
+"""Remove decorative northeast and southeast arrows from published link text, not URLs."""
 import argparse
 from pathlib import Path
 import re
@@ -7,7 +7,7 @@ import re
 parser = argparse.ArgumentParser()
 parser.add_argument("--site", type=Path, required=True)
 args = parser.parse_args()
-arrow = re.compile(r"[ \t]*\u2197\ufe0f?")
+arrow = re.compile(r"[ \t]*[\u2197\u2198]\ufe0f?")
 # Match text nodes only, leaving tags, attributes, scripts and styles intact.
 token = re.compile(r"(<script\b[^>]*>.*?</script\s*>|<style\b[^>]*>.*?</style\s*>|<!--[\s\S]*?-->|<[^>]+>)", re.I | re.S)
 count = 0

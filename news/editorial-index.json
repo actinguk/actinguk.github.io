@@ -959,6 +959,75 @@
       "startDate": "2026-11-25",
       "endDate": "2027-01-16",
       "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Equity opens ballot on landmark Pact film and television agreement",
+      "description": "Nearly 8,000 performers are voting on a proposed three-year deal covering AI replicas, pay and self-tape rules.",
+      "url": "/news/equity-pact-film-tv-ballot-2026.html",
+      "date": "2026-11-23",
+      "category": "Industry rights",
+      "source": "https://www.equity.org.uk/news/2026/equity-secures-uk-first-ai-protections-for-performers",
+      "imageStatus": "No cleared image used",
+      "audioStatus": "Narration pending"
+    },
+    {
+      "title": "The History Boys launches an open search for eight West End pupils",
+      "description": "Nicholas Hytner’s return to Alan Bennett’s play is inviting unrepresented actors to audition in London and Leeds.",
+      "url": "/news/history-boys-west-end-open-casting-2026.html",
+      "date": "2026-11-23",
+      "category": "Casting news",
+      "source": "https://www.whatsonstage.com/news/the-history-boys-launches-west-end-casting-search_1737602/",
+      "imageStatus": "No cleared image used",
+      "audioStatus": "Narration pending"
+    },
+    {
+      "title": "The Watermill brings Pinocchio back with Jax Guerrero in the title role",
+      "description": "The Newbury theatre’s festive revival begins on 25th November, with returning performers and a new lead.",
+      "url": "/news/pinocchio-watermill-theatre-cast-2026.html",
+      "date": "2026-11-23",
+      "category": "Theatre production",
+      "source": "https://www.whatsonstage.com/news/pinocchio-company-confirmed-for-return-to-the-watermill-theatre_1732237/",
+      "imageStatus": "No cleared image used",
+      "audioStatus": "Narration pending"
+    },
+    {
+      "title": "Goblin arrives at Park Theatre with Derek Mitchell’s dark coming-of-age solo show",
+      "description": "Derek Mitchell’s one-person production plays at Park Theatre until 5th December.",
+      "url": "/london-fringe-theatre/goblin-park-theatre-derek-mitchell-2026.html",
+      "date": "2026-11-23",
+      "category": "Production preview",
+      "source": "https://parktheatre.co.uk/events/goblin/",
+      "venue": "Park Theatre",
+      "startDate": "2026-11-23",
+      "endDate": "2026-12-05",
+      "imageStatus": "No cleared image used",
+      "audioStatus": "Narration pending"
+    },
+    {
+      "title": "The Silence and the Noise returns to Park Theatre with a Papatango Prize pedigree",
+      "description": "Tom Powell’s two-hander, directed by George Turvey, runs from 25th November to 12th December.",
+      "url": "/london-fringe-theatre/silence-and-noise-park-theatre-2026.html",
+      "date": "2026-11-23",
+      "category": "Production preview",
+      "source": "https://parktheatre.co.uk/events/the-silence-and-the-noise/",
+      "venue": "Park Theatre",
+      "startDate": "2026-11-25",
+      "endDate": "2026-12-12",
+      "imageStatus": "No cleared image used",
+      "audioStatus": "Narration pending"
+    },
+    {
+      "title": "Ramin Gray revisits The Ugly One at Arcola Theatre",
+      "description": "Marius von Mayenburg’s satire of appearance and identity plays in Arcola’s Studio 2 until 19th December.",
+      "url": "/london-fringe-theatre/ugly-one-arcola-ramin-gray-2026.html",
+      "date": "2026-11-23",
+      "category": "Production preview",
+      "source": "https://www.arcolatheatre.com/event/the-ugly-one/",
+      "venue": "Arcola Theatre",
+      "startDate": "2026-11-17",
+      "endDate": "2026-12-19",
+      "imageStatus": "No cleared image used",
+      "audioStatus": "Narration pending"
     }
   ]
 }

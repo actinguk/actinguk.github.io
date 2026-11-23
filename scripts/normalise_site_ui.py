@@ -36,9 +36,9 @@ CONTENT_RE = re.compile(r'(\bcontent\s*=\s*)(["\x27]).*?\2', re.I)
 def normalise(html):
     if not re.search(r'<body(?:\s|>)', html, re.I) or not BODY_RE.search(html):
         return html
+    theme_tag = THEME_RE.search(html)
     if (html.count('<footer class="site-footer"') == 1
-            and CSS_LINK in html
-            and re.search(r'<meta\s+name="theme-color"\s+content="#E6EFF0"', html)):
+            and CSS_LINK in html and theme_tag and THEME in theme_tag.group(0)):
         return html
     # Remove the previous footer regardless of whether it sat inside main or a wrapper.
     html = FOOTER_RE.sub('', html)

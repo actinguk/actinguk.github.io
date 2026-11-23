@@ -20,6 +20,16 @@ The formatter refuses unbalanced markup or semantic changes to tags, attributes,
 
 All new HTML pages must retain the shared root favicon and manifest links. The Pages build runs `scripts/install_favicons.py` to ensure all published HTML pages have the same icons, including after audio fallback. Use the existing formatted article head for future articles.
 
+## Change control — owner-authorised work only
+
+- Implement only the specific changes expressly requested by the project owner. Treat all unrequested visual, editorial, layout and functional changes as out of scope.
+- Do not add text, captions, labels, watermarks, logos, badges, decorative elements or other overlays to artwork or photographs unless the owner explicitly requests them.
+- When replacing an image, preserve the selected image unchanged. Remove leftover overlays belonging to the previous image rather than carrying them into the replacement.
+- Preserve existing approved content, styling, navigation, features, asset URLs and audio. Do not redesign, rewrite, optimise or refactor unrelated areas as a side effect.
+- Technical adjustments are permitted only to make the authorised change work correctly; keep them minimal, and verify desktop and mobile where relevant.
+- Never regenerate, overwrite or rerender existing MP3s as part of routine visual changes. Generate audio only for newly published articles and preserve existing audio URLs and players.
+- When the requested design or scope is uncertain, do not invent creative additions; seek specific approval before introducing something new.
+
 ## Visual design
 
 Use dark-grey text for interactive controls, including mobile buttons. Do not add decorative northeast-arrow symbols (↗) to links, route cards or buttons. Keep link text and destinations intact. Do not reintroduce the directory shortlist, saved filter, heart controls, or resource-saving copy. Article audio uses the shared headline speaker control; preserve the MP3 URLs and existing narration, and never regenerate audio for a visual-only change.

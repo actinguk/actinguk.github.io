@@ -741,6 +741,31 @@
       "developmentKey": "preview",
       "venue": "Arcola Theatre",
       "status": "published"
+    },
+    {
+      "url": "/news/phantom-west-end-new-cast-november-2026.html",
+      "date": "2026-11-23",
+      "title": "Phantom’s fortieth year brings a new trio to His Majesty’s Theatre",
+      "description": "Kimberly Blake, Kate Graham and Luke Kempner join the West End production from 23rd November, with Ashley Gilmour returning as Raoul.",
+      "category": "West End casting",
+      "source": "https://www.whatsonstage.com/news/phantom-of-the-opera-announces-new-west-end-cast-following-40th-anniversary-celebrations_1736734/",
+      "storyKey": "production:phantom-west-end-2026/november-cast-change",
+      "subjectKey": "production:phantom-west-end-2026",
+      "developmentKey": "november-cast-change",
+      "status": "published"
+    },
+    {
+      "url": "/london-fringe-theatre/dick-whittington-kings-head-pantomime-2026.html",
+      "date": "2026-11-23",
+      "title": "Dick Whittington heads to Islington as King’s Head unveils its winter panto",
+      "description": "Andrew Pollard’s family pantomime opens on 24th November, with Joseph Vella, Victoria Scone and River Medway in the cast.",
+      "category": "Production preview",
+      "source": "https://kingsheadtheatre.com/whats-on/dick-whittington-and-his-cat-x9y6",
+      "storyKey": "production:dick-whittington-kings-head-2026/family-panto-preview",
+      "subjectKey": "production:dick-whittington-kings-head-2026",
+      "developmentKey": "family-panto-preview",
+      "venue": "King’s Head Theatre, Islington",
+      "status": "published"
     }
   ],
   "removed": [

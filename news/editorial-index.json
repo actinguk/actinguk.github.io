@@ -1242,6 +1242,67 @@
       "subjectKey": "production:the-ugly-one:2026-11-17",
       "developmentKey": "preview",
       "storyKey": "production:the-ugly-one:2026-11-17/preview"
+    },
+    {
+      "title": "Phantom’s fortieth year brings a new trio to His Majesty’s Theatre",
+      "description": "Kimberly Blake, Kate Graham and Luke Kempner join the West End production from 23rd November, with Ashley Gilmour returning as Raoul.",
+      "url": "/news/phantom-west-end-new-cast-november-2026.html",
+      "date": "2026-11-23",
+      "category": "West End casting",
+      "source": "https://www.whatsonstage.com/news/phantom-of-the-opera-announces-new-west-end-cast-following-40th-anniversary-celebrations_1736734/",
+      "sources": [
+        {
+          "label": "WhatsOnStage, 5th November 2026",
+          "url": "https://www.whatsonstage.com/news/phantom-of-the-opera-announces-new-west-end-cast-following-40th-anniversary-celebrations_1736734/"
+        }
+      ],
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Her.majestys.theatre.london.arp.jpg/960px-Her.majestys.theatre.london.arp.jpg",
+        "alt": "His Majesty’s Theatre in London, home of The Phantom of the Opera, photographed in 2005",
+        "credit": "Adrian Pingstone (Arpingstone)",
+        "source": "https://commons.wikimedia.org/wiki/File:Her.majestys.theatre.london.arp.jpg",
+        "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "width": 960,
+        "height": 1283,
+        "kind": "contextual photograph"
+      },
+      "storyKey": "production:phantom-west-end-2026/november-cast-change",
+      "subjectKey": "production:phantom-west-end-2026",
+      "developmentKey": "november-cast-change"
+    },
+    {
+      "title": "Dick Whittington heads to Islington as King’s Head unveils its winter panto",
+      "description": "Andrew Pollard’s family pantomime opens on 24th November, with Joseph Vella, Victoria Scone and River Medway in the cast.",
+      "url": "/london-fringe-theatre/dick-whittington-kings-head-pantomime-2026.html",
+      "date": "2026-11-23",
+      "category": "Production preview",
+      "source": "https://kingsheadtheatre.com/whats-on/dick-whittington-and-his-cat-x9y6",
+      "sources": [
+        {
+          "label": "King’s Head Theatre, official production listing",
+          "url": "https://kingsheadtheatre.com/whats-on/dick-whittington-and-his-cat-x9y6"
+        },
+        {
+          "label": "King’s Head Theatre, full cast announcement",
+          "url": "https://kingsheadtheatre.com/full-cast-announced-for-dick-whittington-and-his-cat-6nqb"
+        }
+      ],
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/King%27s_Head%2C_Islington_2025-08-19.jpg/960px-King%27s_Head%2C_Islington_2025-08-19.jpg",
+        "alt": "The historic King’s Head pub on Upper Street, former theatre home; the current production plays in the newer venue behind it",
+        "credit": "Ewan Munro",
+        "source": "https://commons.wikimedia.org/wiki/File:King%27s_Head,_Islington_2025-08-19.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "width": 960,
+        "height": 1281,
+        "kind": "contextual photograph"
+      },
+      "storyKey": "production:dick-whittington-kings-head-2026/family-panto-preview",
+      "subjectKey": "production:dick-whittington-kings-head-2026",
+      "developmentKey": "family-panto-preview",
+      "startDate": "2026-11-24",
+      "endDate": "2027-01-03",
+      "venue": "King’s Head Theatre, Islington"
     }
   ]
 }

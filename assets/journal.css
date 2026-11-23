@@ -1,12 +1,12 @@
 :root {
   --site-gutter:48px;
-  --paper:#f5f2eb;
-  --ink:#20211d;
-  --muted:#62645b;
-  --line:#d9d7ce;
-  --lime:#d7e966;
-  --dark:#20251e;
-  --white:#fffdf8
+  --paper:#E6EFF0;
+  --ink:#193548;
+  --muted:#516A76;
+  --line:#BED1D5;
+  --lime:#EFCF86;
+  --dark:#214969;
+  --white:#F8FBFA
 }
 * {
   box-sizing:border-box
@@ -31,7 +31,7 @@ button {
   cursor:pointer
 }
 a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible {
-  outline:3px solid #879a20;
+  outline:3px solid #A65338;
   outline-offset:4px
 }
 .wrap {
@@ -62,7 +62,7 @@ header {
   position:sticky;
   top:0;
   z-index:10;
-  background:rgba(245,242,235,.97);
+  background:rgba(230,239,240,.97);
   border-bottom:1px solid var(--line);
   backdrop-filter:blur(12px)
 }
@@ -81,7 +81,7 @@ header {
   white-space:nowrap
 }
 .logo span {
-  color:#777b65
+  color:#A65338
 }
 .navlinks {
   display:flex;
@@ -97,7 +97,7 @@ header {
   text-decoration:underline
 }
 .navlinks .current {
-  border-bottom:2px solid #8d9e26
+  border-bottom:2px solid #DA825D
 }
 .hero {
   display:grid;
@@ -135,10 +135,10 @@ header {
   font-weight:bold
 }
 .cta:hover {
-  background:#c9dc4d
+  background:#E4BC78
 }
 .hero-art {
-  background:#252e26;
+  background:#214969;
   min-height:370px;
   overflow:hidden;
   position:relative;
@@ -156,7 +156,7 @@ header {
   bottom:15px;
   left:18px;
   right:18px;
-  color:#e4e8d5;
+  color:#EDF4F5;
   display:flex;
   justify-content:space-between;
   font-size:10px;
@@ -203,7 +203,7 @@ header {
   min-height:190px
 }
 .feature:hover {
-  background:#e6ebc6
+  background:#DDEBED
 }
 .feature h3 {
   font-size:24px;
@@ -249,7 +249,7 @@ header {
 .searchrow input {
   width:100%;
   background:var(--white);
-  border:1px solid #aaa99e;
+  border:1px solid #A3BBC2;
   padding:13px 15px;
   border-radius:3px
 }
@@ -288,10 +288,10 @@ header {
   display:none
 }
 .qa summary:hover {
-  background:#eeece2
+  background:#DEE9EB
 }
 .qa details[open] summary {
-  background:#e7ead5
+  background:#DDEBED
 }
 .number {
   font-family:Georgia,serif;
@@ -346,8 +346,8 @@ header {
   color:var(--muted)
 }
 .recommend {
-  border:1px solid #aeb987;
-  background:#e8edce;
+  border:1px solid #AFC9D0;
+  background:#DDEBED;
   padding:22px;
   margin:22px 0
 }
@@ -484,7 +484,7 @@ header {
 }
 
 /* Use the editorial neutral rather than the mobile browser default blue. */
-button{color:#363830}
+button{color:#193548}
 
 /* Shared page inset: align masthead, main content and footer at every width. */
 @media(max-width:950px){:root{--site-gutter:24px}}
@@ -497,3 +497,8 @@ header .navlinks a{white-space:nowrap}
   header .nav{flex-wrap:wrap;gap:8px 14px;padding-block:10px}
   header .navlinks{font-size:12px;gap:8px 11px}
 }
+
+/* Soft Modernist colour roles: preserve layout, scale and interaction. */
+header .navlinks a,.answer a:not(.cta),.notes a,.sources a{color:#214969}
+header .navlinks a:hover,.answer a:not(.cta):hover,.notes a:hover,.sources a:hover{color:#A65338}
+.cta{color:#193548}

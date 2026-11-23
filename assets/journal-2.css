@@ -7,7 +7,7 @@
   align-items:start
 }
 .qa .qa-link:hover {
-  background:#eeece2
+  background:#DEE9EB
 }
 .qa .qa-link .plus {
   font-size:20px
@@ -21,4 +21,4 @@
 }
 
 /* Use the editorial neutral rather than the mobile browser default blue. */
-button{color:#363830}
+button{color:#193548}

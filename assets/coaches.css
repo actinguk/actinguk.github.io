@@ -59,7 +59,7 @@
   font-size:14px;
   min-height:44px;
   padding:9px 11px;
-  border:1px solid #a9aa9e;
+  border:1px solid #9BB4BC;
   background:var(--paper);
   color:var(--ink);
   border-radius:3px;
@@ -70,7 +70,7 @@
   font-weight:bold
 }
 .coach-controls input:focus-visible,.coach-controls select:focus-visible {
-  outline:3px solid #879a20;
+  outline:3px solid #A65338;
   outline-offset:3px
 }
 .coach-group {
@@ -167,4 +167,4 @@
 }
 
 /* Use the editorial neutral rather than the mobile browser default blue. */
-button{color:#363830}
+button{color:#193548}

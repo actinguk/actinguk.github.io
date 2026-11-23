@@ -1,12 +1,12 @@
 :root {
   --site-gutter:48px;
-  --paper:#f5f2eb;
-  --ink:#20211d;
-  --muted:#62645b;
-  --line:#d9d7ce;
-  --lime:#d7e966;
-  --dark:#20251e;
-  --white:#fffdf8
+  --paper:#E6EFF0;
+  --ink:#193548;
+  --muted:#516A76;
+  --line:#BED1D5;
+  --lime:#EFCF86;
+  --dark:#214969;
+  --white:#F8FBFA
 }
 * {
   box-sizing:border-box
@@ -32,11 +32,11 @@ button,a,input,select {
 }
 button {
   cursor:pointer;
-  color:#363830;
+  color:#193548;
   -webkit-tap-highlight-color:transparent
 }
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible {
-  outline:3px solid #8d9e26;
+  outline:3px solid #DA825D;
   outline-offset:4px
 }
 .wrap {
@@ -67,7 +67,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible {
 header {
   position:sticky;
   top:0;
-  background:rgba(245,242,235,.96);
+  background:rgba(230,239,240,.96);
   backdrop-filter:blur(12px);
   z-index:20;
   border-bottom:1px solid var(--line)
@@ -87,7 +87,7 @@ header {
   white-space:nowrap
 }
 .logo span {
-  color:#777b65;
+  color:#A65338;
   letter-spacing:-.08em
 }
 .links {
@@ -150,14 +150,14 @@ header {
   font-weight:bold
 }
 .cta:hover {
-  background:#c9dc4d
+  background:#E4BC78
 }
 .hero-art {
   min-height:460px;
   position:relative;
   overflow:hidden;
   border-radius:3px;
-  background:#292e25;
+  background:#214969;
   display:flex;
   align-items:stretch
 }
@@ -251,7 +251,7 @@ header {
 }
 .controls input,.controls select {
   width:100%;
-  border:1px solid #a9aa9e;
+  border:1px solid #9BB4BC;
   background:var(--paper);
   padding:12px;
   border-radius:3px;
@@ -353,7 +353,7 @@ header {
 .guide-art {
   height:120px;
   overflow:hidden;
-  background:#d7deae;
+  background:#DCE9EA;
   display:grid;
   place-items:center
 }
@@ -381,7 +381,7 @@ header {
 }
 .plan {
   background:var(--dark);
-  color:#f5f2eb;
+  color:#E6EFF0;
   padding:35px;
   display:grid;
   grid-template-columns:1fr 1.2fr;
@@ -394,11 +394,11 @@ header {
   margin:14px 0
 }
 .plan p {
-  color:#c3c8b6
+  color:#D6E5EA
 }
 .progress {
   height:5px;
-  background:#59604f;
+  background:#769CB2;
   margin:18px 0
 }
 .progress div {
@@ -412,7 +412,7 @@ header {
   gap:12px;
   align-items:start;
   padding:11px 0;
-  border-bottom:1px solid #444b3d;
+  border-bottom:1px solid #486A83;
   font-size:14px
 }
 .task input {
@@ -423,7 +423,7 @@ header {
 }
 .task.done span {
   text-decoration:line-through;
-  color:#a9af9d
+  color:#BDD6DD
 }
 .news-grid {
   display:grid;
@@ -485,7 +485,7 @@ header {
   overflow:auto
 }
 .dialog::backdrop {
-  background:#1c2119b0;
+  background:#102A3CC0;
   backdrop-filter:blur(3px)
 }
 .dialog h2 {
@@ -658,7 +658,7 @@ header {
   }
 }
 .nav-headshots {
-  color:#4f5d27
+  color:#214969
 }
 .hero-secondary {
   margin-top:13px;
@@ -667,8 +667,8 @@ header {
   text-underline-offset:3px
 }
 .route-headshots {
-  border-color:#a5b66b;
-  background:#e8edce
+  border-color:#B1CCD3;
+  background:#DDEBED
 }
 .first-look {
   margin-top:18px;
@@ -722,7 +722,7 @@ header {
   font-size:13px
 }
 .plan-note a {
-  color:#e5edaa
+  color:#F2D9A8
 }
 .task {
   display:flex;
@@ -736,14 +736,14 @@ header {
   gap:10px
 }
 .task a {
-  color:#dce7a4;
+  color:#EFD49E;
   font-size:12px;
   margin-left:29px;
   text-decoration:underline;
   text-underline-offset:3px
 }
 .task-headshots {
-  background:#303a29;
+  background:#2A5774;
   padding:12px 9px;
   border-radius:2px
 }
@@ -921,3 +921,10 @@ header {
 header .wrap.nav{padding-inline:var(--site-gutter)}
 header .logo{flex-shrink:0}
 @media(max-width:900px){header .mobile{margin-inline-start:auto}}
+
+/* Soft Modernist colour roles: colour-only adjustments. */
+header .links a,.portrait-link,.quiet-link,.entry a,.news-card .out,.note a{color:#214969}
+header .links a:hover,.portrait-link:hover,.quiet-link:hover,.entry a:hover,.news-card .out:hover,.note a:hover{color:#A65338}
+.route:hover{background:#F4E0D5}
+.route:hover p,.route:hover .num{color:#193548}
+.cta{color:#193548}

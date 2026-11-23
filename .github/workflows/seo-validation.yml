@@ -17,6 +17,10 @@ jobs:
           node --check assets/analytics.js
           node --test analytics/worker.test.mjs
           python3 scripts/install_analytics.py --check
+      - name: Reject repeated editorial stories
+        run: |
+          node --test scripts/editorial-guard.test.mjs
+          node scripts/editorial-guard.mjs --check
       - name: Validate static SEO
         run: python3 scripts/validate_seo.py
   browser:

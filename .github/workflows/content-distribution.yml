@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'news/**'
+      - 'content/story-registry.json'
       - 'london-fringe-theatre/**'
       - 'rss.xml'
       - 'index.html'
@@ -32,6 +33,7 @@ jobs:
           package-manager-cache: false
       - name: Generate and validate discovery files
         run: |
+          node scripts/editorial-guard.mjs --check
           node scripts/generate-discovery.mjs
           python3 - <<'PY'
           import xml.etree.ElementTree as E

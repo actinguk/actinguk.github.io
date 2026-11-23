@@ -967,8 +967,18 @@
       "date": "2026-11-23",
       "category": "Industry rights",
       "source": "https://www.equity.org.uk/news/2026/equity-secures-uk-first-ai-protections-for-performers",
-      "imageStatus": "No cleared image used",
-      "audioStatus": "Narration pending"
+      "audioStatus": "Narration pending",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Guild_House.jpg/960px-Guild_House.jpg",
+        "alt": "Guild House in London, headquarters of the British performers’ union Equity",
+        "credit": "Robert Lugg",
+        "source": "https://commons.wikimedia.org/wiki/File:Guild_House.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "label": "CC BY-SA 4.0",
+        "width": 960,
+        "height": 1280,
+        "kind": "Equity’s Guild House headquarters in London (contextual photograph, not a photograph of the 2026 ballot)."
+      }
     },
     {
       "title": "The History Boys launches an open search for eight West End pupils",
@@ -977,8 +987,18 @@
       "date": "2026-11-23",
       "category": "Casting news",
       "source": "https://www.whatsonstage.com/news/the-history-boys-launches-west-end-casting-search_1737602/",
-      "imageStatus": "No cleared image used",
-      "audioStatus": "Narration pending"
+      "audioStatus": "Narration pending",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Alan_Bennett_Allan_Warren.jpg/960px-Alan_Bennett_Allan_Warren.jpg",
+        "alt": "Playwright Alan Bennett, author of The History Boys, photographed in 1973",
+        "credit": "Allan Warren",
+        "source": "https://commons.wikimedia.org/wiki/File:Alan_Bennett_Allan_Warren.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "label": "CC BY-SA 3.0",
+        "width": 960,
+        "height": 1271,
+        "kind": "Alan Bennett, author of The History Boys, photographed in 1973 (archive portrait; not a 2026 rehearsal or production photograph)."
+      }
     },
     {
       "title": "The Watermill brings Pinocchio back with Jax Guerrero in the title role",
@@ -987,8 +1007,18 @@
       "date": "2026-11-23",
       "category": "Theatre production",
       "source": "https://www.whatsonstage.com/news/pinocchio-company-confirmed-for-return-to-the-watermill-theatre_1732237/",
-      "imageStatus": "No cleared image used",
-      "audioStatus": "Narration pending"
+      "audioStatus": "Narration pending",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/The_Watermill_Theatre_-_geograph.org.uk_-_3917027.jpg",
+        "alt": "The Watermill Theatre beside the river near Newbury, venue for the 2026 Pinocchio revival",
+        "credit": "Des Blenkinsopp",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Watermill_Theatre_-_geograph.org.uk_-_3917027.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "label": "CC BY-SA 2.0",
+        "width": 1024,
+        "height": 684,
+        "kind": "The Watermill Theatre in Newbury (venue photograph from 2014, not a photograph of the Pinocchio production)."
+      }
     },
     {
       "title": "Goblin arrives at Park Theatre with Derek Mitchell’s dark coming-of-age solo show",
@@ -1000,8 +1030,18 @@
       "venue": "Park Theatre",
       "startDate": "2026-11-23",
       "endDate": "2026-12-05",
-      "imageStatus": "No cleared image used",
-      "audioStatus": "Narration pending"
+      "audioStatus": "Narration pending",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Park_Theatre%2C_Finsbury_Park_-_geograph.org.uk_-_5919057.jpg/500px-Park_Theatre%2C_Finsbury_Park_-_geograph.org.uk_-_5919057.jpg",
+        "alt": "The exterior of Park Theatre in Finsbury Park, venue for Derek Mitchell’s Goblin",
+        "credit": "Jim Osley",
+        "source": "https://commons.wikimedia.org/wiki/File:Park_Theatre,_Finsbury_Park_-_geograph.org.uk_-_5919057.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "label": "CC BY-SA 2.0",
+        "width": 500,
+        "height": 811,
+        "kind": "Park Theatre, Finsbury Park (2018 venue photograph; not a Goblin production still)."
+      }
     },
     {
       "title": "The Silence and the Noise returns to Park Theatre with a Papatango Prize pedigree",
@@ -1013,8 +1053,18 @@
       "venue": "Park Theatre",
       "startDate": "2026-11-25",
       "endDate": "2026-12-12",
-      "imageStatus": "No cleared image used",
-      "audioStatus": "Narration pending"
+      "audioStatus": "Narration pending",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Park_Theatre%2C_Finsbury_Park_-_geograph.org.uk_-_5919057.jpg/500px-Park_Theatre%2C_Finsbury_Park_-_geograph.org.uk_-_5919057.jpg",
+        "alt": "Park Theatre building in Finsbury Park where The Silence and the Noise is scheduled to play",
+        "credit": "Jim Osley",
+        "source": "https://commons.wikimedia.org/wiki/File:Park_Theatre,_Finsbury_Park_-_geograph.org.uk_-_5919057.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "label": "CC BY-SA 2.0",
+        "width": 500,
+        "height": 811,
+        "kind": "Park Theatre, venue for The Silence and the Noise (contextual 2018 photograph, not a production still)."
+      }
     },
     {
       "title": "Ramin Gray revisits The Ugly One at Arcola Theatre",
@@ -1026,8 +1076,18 @@
       "venue": "Arcola Theatre",
       "startDate": "2026-11-17",
       "endDate": "2026-12-19",
-      "imageStatus": "No cleared image used",
-      "audioStatus": "Narration pending"
+      "audioStatus": "Narration pending",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/O_asximos_Katerina_Vassilakou_theatre_2024_01_n3.jpg/960px-O_asximos_Katerina_Vassilakou_theatre_2024_01_n3.jpg",
+        "alt": "Performers at the curtain call for a 2024 Athens staging of Marius von Mayenburg’s The Ugly One, a separate production from the Arcola revival",
+        "credit": "FocalPoint",
+        "source": "https://commons.wikimedia.org/wiki/File:O_asximos_Katerina_Vassilakou_theatre_2024_01_n3.jpg",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "label": "CC BY-SA 4.0",
+        "width": 960,
+        "height": 720,
+        "kind": "A separate production of Marius von Mayenburg’s The Ugly One, at Katerina Vassilakou Theatre, Athens, in 2024 (not the Arcola cast)."
+      }
     }
   ]
 }

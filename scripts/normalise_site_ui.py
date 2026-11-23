@@ -43,7 +43,16 @@ def normalise(html):
     # Remove the previous footer regardless of whether it sat inside main or a wrapper.
     html = FOOTER_RE.sub('', html)
     # Keep the footer after all sections, including homepage content after its old footer.
-    html = BODY_RE.sub(lambda m: '\n' + FOOTER + '\n' + m.group(0), html, count=1)
+    # Leave the analytics script last, as required by the shared tracking installer.
+    analytics = list(re.finditer(
+        r'<script\b[^>]*\bsrc=["\x27]/assets/analytics\.js["\x27][^>]*>\s*</script\s*>',
+        html, re.I
+    ))
+    if analytics:
+        pos = analytics[-1].start()
+        html = html[:pos] + FOOTER + '\n' + html[pos:]
+    else:
+        html = BODY_RE.sub(lambda m: '\n' + FOOTER + '\n' + m.group(0), html, count=1)
     if not re.search(r'<link\b[^>]+href=["\x27]/assets/site-consistency\.css["\x27]', html, re.I):
         html = HEAD_RE.sub(lambda m: '  ' + CSS_LINK + '\n' + m.group(0), html, count=1)
     if THEME_RE.search(html):

@@ -766,6 +766,83 @@
       "developmentKey": "family-panto-preview",
       "venue": "King’s Head Theatre, Islington",
       "status": "published"
+    },
+    {
+      "url": "/news/whatsonstage-awards-2027-nominations-close.html",
+      "date": "2026-11-24",
+      "title": "WhatsOnStage Awards close nominations ahead of December shortlist",
+      "description": "Public nominations for the 27th awards closed at noon on 24th November; the shortlist is due on 10th December.",
+      "category": "Theatre awards",
+      "source": "https://awards.whatsonstage.com/27th-annual-whatsonstage-awards-nominate-now/",
+      "storyKey": "awards:whatsonstage-2027/nomination-close",
+      "subjectKey": "awards:whatsonstage-2027",
+      "developmentKey": "nomination-close",
+      "status": "published"
+    },
+    {
+      "url": "/news/grinch-leeds-playhouse-joel-montague-2026.html",
+      "date": "2026-11-24",
+      "title": "Joel Montague turns green as Leeds Playhouse stages a new Grinch",
+      "description": "Tom Wright directs the Broadway musical’s new UK production in the Quarry, with performances continuing until 16th January.",
+      "category": "Regional theatre",
+      "source": "https://www.leedsplayhouse.org.uk/event/dr-seuss-how-the-grinch-stole-christmas-the-musical/",
+      "storyKey": "production:grinch-leeds-playhouse-2026/opening",
+      "subjectKey": "production:grinch-leeds-playhouse-2026",
+      "developmentKey": "opening",
+      "venue": "Leeds Playhouse",
+      "status": "published"
+    },
+    {
+      "url": "/news/traverse-theatre-spring-2027-programme.html",
+      "date": "2026-11-24",
+      "title": "Edinburgh’s Traverse announces a spring season built around new writing",
+      "description": "Linda McLean’s The Ferry, a Murakami adaptation and Tafadzwa Muchenje’s Ripples feature in the programme announced on 23rd November.",
+      "category": "Season announcement",
+      "source": "https://www.traverse.co.uk/news/the-spring-2027-programme-is-here",
+      "storyKey": "season:traverse-spring-2027/programme-announcement",
+      "subjectKey": "season:traverse-spring-2027",
+      "developmentKey": "programme-announcement",
+      "venue": "Traverse Theatre",
+      "status": "published"
+    },
+    {
+      "url": "/london-fringe-theatre/pink-rabbit-soho-theatre-2026.html",
+      "date": "2026-11-24",
+      "title": "Pink Rabbit transfers to Soho Theatre after its Edinburgh debut",
+      "description": "Farah Ashraf’s solo play, directed by Alessandro Babalola, runs in Soho Upstairs from 24th November to 12th December.",
+      "category": "Production preview",
+      "source": "https://sohotheatre.com/events/pink-rabbit/",
+      "storyKey": "production:pink-rabbit-soho-2026/transfer-preview",
+      "subjectKey": "production:pink-rabbit-soho-2026",
+      "developmentKey": "transfer-preview",
+      "venue": "Soho Theatre",
+      "status": "published"
+    },
+    {
+      "url": "/london-fringe-theatre/majenin-theatre503-marena-riyad-2026.html",
+      "date": "2026-11-24",
+      "title": "Majenin brings a Palestinian romantic comedy to Theatre503",
+      "description": "Marena Riyad’s Edinburgh Fringe two-hander runs at the Battersea venue from 23rd to 28th November.",
+      "category": "Production preview",
+      "source": "https://theatre503.com/whats-on/majenin-a-palestinian-love-story/",
+      "storyKey": "production:majenin-theatre503-2026/london-preview",
+      "subjectKey": "production:majenin-theatre503-2026",
+      "developmentKey": "london-preview",
+      "venue": "Theatre503",
+      "status": "published"
+    },
+    {
+      "url": "/london-fringe-theatre/after-today-hope-theatre-bill-grundy-2026.html",
+      "date": "2026-11-24",
+      "title": "After Today revisits Bill Grundy at the Hope Theatre",
+      "description": "Tim Connery’s play opens on 24th November, with Alex Dee as Grundy and Kevin McNally directing.",
+      "category": "Production preview",
+      "source": "https://www.thehopetheatre.com/aftertoday",
+      "storyKey": "production:after-today-hope-2026/anniversary-preview",
+      "subjectKey": "production:after-today-hope-2026",
+      "developmentKey": "anniversary-preview",
+      "venue": "The Hope Theatre",
+      "status": "published"
     }
   ],
   "removed": [

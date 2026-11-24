@@ -1303,6 +1303,147 @@
       "startDate": "2026-11-24",
       "endDate": "2027-01-03",
       "venue": "King’s Head Theatre, Islington"
+    },
+    {
+      "title": "WhatsOnStage Awards close nominations ahead of December shortlist",
+      "description": "Public nominations for the 27th awards closed at noon on 24th November; the shortlist is due on 10th December.",
+      "url": "/news/whatsonstage-awards-2027-nominations-close.html",
+      "date": "2026-11-24",
+      "category": "Theatre awards",
+      "source": "https://awards.whatsonstage.com/27th-annual-whatsonstage-awards-nominate-now/",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://awards.whatsonstage.com/27th-annual-whatsonstage-awards-nominate-now/"
+        },
+        {
+          "label": "Further reporting and details",
+          "url": "https://www.whatsonstage.com/news/27th-annual-whatsonstage-awards-eligibility-explained_1736281/"
+        },
+        {
+          "label": "Further reporting and details",
+          "url": "https://www.whatsonstage.com/news/hosts-announced-for-27th-annual-whatsonstage-awards_1736332/"
+        }
+      ],
+      "subjectKey": "awards:whatsonstage-2027",
+      "developmentKey": "nomination-close",
+      "storyKey": "awards:whatsonstage-2027/nomination-close",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Joel Montague turns green as Leeds Playhouse stages a new Grinch",
+      "description": "Tom Wright directs the Broadway musical’s new UK production in the Quarry, with performances continuing until 16th January.",
+      "url": "/news/grinch-leeds-playhouse-joel-montague-2026.html",
+      "date": "2026-11-24",
+      "category": "Regional theatre",
+      "source": "https://www.leedsplayhouse.org.uk/event/dr-seuss-how-the-grinch-stole-christmas-the-musical/",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.leedsplayhouse.org.uk/event/dr-seuss-how-the-grinch-stole-christmas-the-musical/"
+        },
+        {
+          "label": "Further reporting and details",
+          "url": "https://www.whatsonstage.com/news/joel-montague-to-star-in-how-the-grinch-stole-christmas-revival_1729829/"
+        }
+      ],
+      "subjectKey": "production:grinch-leeds-playhouse-2026",
+      "developmentKey": "opening",
+      "storyKey": "production:grinch-leeds-playhouse-2026/opening",
+      "venue": "Leeds Playhouse",
+      "startDate": "2026-11-19",
+      "endDate": "2027-01-16",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Edinburgh’s Traverse announces a spring season built around new writing",
+      "description": "Linda McLean’s The Ferry, a Murakami adaptation and Tafadzwa Muchenje’s Ripples feature in the programme announced on 23rd November.",
+      "url": "/news/traverse-theatre-spring-2027-programme.html",
+      "date": "2026-11-24",
+      "category": "Season announcement",
+      "source": "https://www.traverse.co.uk/news/the-spring-2027-programme-is-here",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.traverse.co.uk/news/the-spring-2027-programme-is-here"
+        },
+        {
+          "label": "Further reporting and details",
+          "url": "https://www.whatsonstage.com/news/traverse-theatre-announces-spring-2027-season_1738068/"
+        }
+      ],
+      "subjectKey": "season:traverse-spring-2027",
+      "developmentKey": "programme-announcement",
+      "storyKey": "season:traverse-spring-2027/programme-announcement",
+      "venue": "Traverse Theatre",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Pink Rabbit transfers to Soho Theatre after its Edinburgh debut",
+      "description": "Farah Ashraf’s solo play, directed by Alessandro Babalola, runs in Soho Upstairs from 24th November to 12th December.",
+      "url": "/london-fringe-theatre/pink-rabbit-soho-theatre-2026.html",
+      "date": "2026-11-24",
+      "category": "Production preview",
+      "source": "https://sohotheatre.com/events/pink-rabbit/",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://sohotheatre.com/events/pink-rabbit/"
+        }
+      ],
+      "subjectKey": "production:pink-rabbit-soho-2026",
+      "developmentKey": "transfer-preview",
+      "storyKey": "production:pink-rabbit-soho-2026/transfer-preview",
+      "venue": "Soho Theatre",
+      "startDate": "2026-11-24",
+      "endDate": "2026-12-12",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Majenin brings a Palestinian romantic comedy to Theatre503",
+      "description": "Marena Riyad’s Edinburgh Fringe two-hander runs at the Battersea venue from 23rd to 28th November.",
+      "url": "/london-fringe-theatre/majenin-theatre503-marena-riyad-2026.html",
+      "date": "2026-11-24",
+      "category": "Production preview",
+      "source": "https://theatre503.com/whats-on/majenin-a-palestinian-love-story/",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://theatre503.com/whats-on/majenin-a-palestinian-love-story/"
+        },
+        {
+          "label": "Further reporting and details",
+          "url": "https://theatre503.com/winter-short-runs/"
+        }
+      ],
+      "subjectKey": "production:majenin-theatre503-2026",
+      "developmentKey": "london-preview",
+      "storyKey": "production:majenin-theatre503-2026/london-preview",
+      "venue": "Theatre503",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-28",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "After Today revisits Bill Grundy at the Hope Theatre",
+      "description": "Tim Connery’s play opens on 24th November, with Alex Dee as Grundy and Kevin McNally directing.",
+      "url": "/london-fringe-theatre/after-today-hope-theatre-bill-grundy-2026.html",
+      "date": "2026-11-24",
+      "category": "Production preview",
+      "source": "https://www.thehopetheatre.com/aftertoday",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.thehopetheatre.com/aftertoday"
+        }
+      ],
+      "subjectKey": "production:after-today-hope-2026",
+      "developmentKey": "anniversary-preview",
+      "storyKey": "production:after-today-hope-2026/anniversary-preview",
+      "venue": "The Hope Theatre",
+      "startDate": "2026-11-24",
+      "endDate": "2026-12-05",
+      "imageStatus": "No cleared image used"
     }
   ]
 }

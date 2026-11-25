@@ -843,6 +843,83 @@
       "developmentKey": "anniversary-preview",
       "venue": "The Hope Theatre",
       "status": "published"
+    },
+    {
+      "url": "/news/samantha-morton-bfi-fellowship-2027.html",
+      "date": "2026-11-25",
+      "title": "Samantha Morton to receive the BFI Fellowship",
+      "description": "The BFI announced its highest honour for Morton on 23rd November, with a January presentation and a June retrospective.",
+      "category": "Screen industry",
+      "source": "https://www.bfi.org.uk/news/bfi-fellowship-awarded-samantha-morton",
+      "storyKey": "award:samantha-morton-bfi-2027/fellowship-announcement",
+      "subjectKey": "award:samantha-morton-bfi-2027",
+      "developmentKey": "fellowship-announcement",
+      "status": "published"
+    },
+    {
+      "url": "/news/punch-uk-ireland-tour-bailey-west-2027.html",
+      "date": "2026-11-25",
+      "title": "Bailey West makes his stage debut in the touring cast of Punch",
+      "description": "Nottingham Playhouse announced the cast on 19th November for James Graham’s play, touring from January to April 2027.",
+      "category": "Casting news",
+      "source": "https://nottinghamplayhouse.co.uk/news/news-full-cast-announced-for-punch-uk-ireland-tour",
+      "storyKey": "production:punch-uk-ireland-tour-2027/tour-cast-announcement",
+      "subjectKey": "production:punch-uk-ireland-tour-2027",
+      "developmentKey": "tour-cast-announcement",
+      "venue": "Nottingham Playhouse",
+      "status": "published"
+    },
+    {
+      "url": "/news/jumpers-hampstead-rhea-norwood-james-corrigan-2026.html",
+      "date": "2026-11-25",
+      "title": "Stoppard’s Jumpers begins its Hampstead revival with Rhea Norwood and James Corrigan",
+      "description": "Blanche McIntyre directs the comedy’s first London staging in more than two decades, with previews starting on 25th November.",
+      "category": "Theatre production",
+      "source": "https://www.hampsteadtheatre.com/rhea-norwood-and-james-corrigan-to-star-in-tom-stoppards-jumpers-at-hampstead-theatre/",
+      "storyKey": "production:jumpers-hampstead-2026/opening",
+      "subjectKey": "production:jumpers-hampstead-2026",
+      "developmentKey": "opening",
+      "venue": "Hampstead Theatre",
+      "status": "published"
+    },
+    {
+      "url": "/london-fringe-theatre/shakespeares-cousin-white-bear-2026.html",
+      "date": "2026-11-25",
+      "title": "Shakespeare’s Cousin enters its final week at the White Bear",
+      "description": "Jonathan Moore’s new play about Robert Southwell runs in Kennington until 28th November.",
+      "category": "Production preview",
+      "source": "https://www.whitebeartheatre.co.uk/whatson/shakespeare%E2%80%99s-cousin",
+      "storyKey": "production:shakespeares-cousin-white-bear-2026/world-premiere-run",
+      "subjectKey": "production:shakespeares-cousin-white-bear-2026",
+      "developmentKey": "world-premiere-run",
+      "venue": "White Bear Theatre",
+      "status": "published"
+    },
+    {
+      "url": "/london-fringe-theatre/its-a-wonderful-life-jermyn-street-2026.html",
+      "date": "2026-11-25",
+      "title": "It’s a Wonderful Life goes on air at Jermyn Street Theatre",
+      "description": "Jessica Lazar’s radio-on-stage production runs from 19th November to 3rd January, with six multi-roling performers.",
+      "category": "Production preview",
+      "source": "https://www.jermynstreettheatre.co.uk/show/its-a-wonderful-life/",
+      "storyKey": "production:its-a-wonderful-life-jermyn-2026/radio-stage-run",
+      "subjectKey": "production:its-a-wonderful-life-jermyn-2026",
+      "developmentKey": "radio-stage-run",
+      "venue": "Jermyn Street Theatre",
+      "status": "published"
+    },
+    {
+      "url": "/london-fringe-theatre/julius-caesar-remixed-omnibus-2026.html",
+      "date": "2026-11-25",
+      "title": "Intermission Youth puts Julius Caesar in a modern classroom at Omnibus",
+      "description": "Darren Raymond’s play, directed by Stephanie Badaru, continues at the Clapham theatre until 5th December.",
+      "category": "Production preview",
+      "source": "https://www.omnibus-clapham.org/whatson/julius-caesar-remixed",
+      "storyKey": "production:julius-caesar-remixed-omnibus-2026/london-run",
+      "subjectKey": "production:julius-caesar-remixed-omnibus-2026",
+      "developmentKey": "london-run",
+      "venue": "Omnibus Theatre",
+      "status": "published"
     }
   ],
   "removed": [

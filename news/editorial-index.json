@@ -1444,6 +1444,197 @@
       "startDate": "2026-11-24",
       "endDate": "2026-12-05",
       "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Samantha Morton to receive the BFI Fellowship",
+      "description": "The BFI announced its highest honour for Morton on 23rd November, with a January presentation and a June retrospective.",
+      "url": "/news/samantha-morton-bfi-fellowship-2027.html",
+      "date": "2026-11-25",
+      "category": "Screen industry",
+      "source": "https://www.bfi.org.uk/news/bfi-fellowship-awarded-samantha-morton",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.bfi.org.uk/news/bfi-fellowship-awarded-samantha-morton"
+        }
+      ],
+      "subjectKey": "award:samantha-morton-bfi-2027",
+      "developmentKey": "fellowship-announcement",
+      "storyKey": "award:samantha-morton-bfi-2027/fellowship-announcement",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/SamanthaMorton09TIFF.jpg",
+        "alt": "Samantha Morton at the 2009 Toronto International Film Festival; archive photograph",
+        "credit": "gdcgraphics",
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "width": 487,
+        "height": 746,
+        "source": "https://commons.wikimedia.org/wiki/File:SamanthaMorton09TIFF.jpg",
+        "kind": "contextual photograph"
+      }
+    },
+    {
+      "title": "Bailey West makes his stage debut in the touring cast of Punch",
+      "description": "Nottingham Playhouse announced the cast on 19th November for James Graham’s play, touring from January to April 2027.",
+      "url": "/news/punch-uk-ireland-tour-bailey-west-2027.html",
+      "date": "2026-11-25",
+      "category": "Casting news",
+      "source": "https://nottinghamplayhouse.co.uk/news/news-full-cast-announced-for-punch-uk-ireland-tour",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://nottinghamplayhouse.co.uk/news/news-full-cast-announced-for-punch-uk-ireland-tour"
+        }
+      ],
+      "subjectKey": "production:punch-uk-ireland-tour-2027",
+      "developmentKey": "tour-cast-announcement",
+      "storyKey": "production:punch-uk-ireland-tour-2027/tour-cast-announcement",
+      "venue": "Nottingham Playhouse",
+      "startDate": "2027-01-25",
+      "endDate": "2027-04-24",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nottingham_Playhouse_-_geograph.org.uk_-_6117506.jpg",
+        "alt": "Nottingham Playhouse, photographed in 2019; venue photograph",
+        "credit": "Alan Murray-Rust",
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "width": 1280,
+        "height": 856,
+        "source": "https://commons.wikimedia.org/wiki/File:Nottingham_Playhouse_-_geograph.org.uk_-_6117506.jpg",
+        "kind": "contextual photograph"
+      }
+    },
+    {
+      "title": "Stoppard’s Jumpers begins its Hampstead revival with Rhea Norwood and James Corrigan",
+      "description": "Blanche McIntyre directs the comedy’s first London staging in more than two decades, with previews starting on 25th November.",
+      "url": "/news/jumpers-hampstead-rhea-norwood-james-corrigan-2026.html",
+      "date": "2026-11-25",
+      "category": "Theatre production",
+      "source": "https://www.hampsteadtheatre.com/rhea-norwood-and-james-corrigan-to-star-in-tom-stoppards-jumpers-at-hampstead-theatre/",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.hampsteadtheatre.com/rhea-norwood-and-james-corrigan-to-star-in-tom-stoppards-jumpers-at-hampstead-theatre/"
+        }
+      ],
+      "subjectKey": "production:jumpers-hampstead-2026",
+      "developmentKey": "opening",
+      "storyKey": "production:jumpers-hampstead-2026/opening",
+      "venue": "Hampstead Theatre",
+      "startDate": "2026-11-25",
+      "endDate": "2027-01-23",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Hampstead_Theatre_in_2010.jpg/960px-Hampstead_Theatre_in_2010.jpg",
+        "alt": "Hampstead Theatre in 2010; archive venue photograph",
+        "credit": "HampsteadTheatre / Daisy Hutchison",
+        "label": "CC BY-SA 3.0",
+        "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "width": 960,
+        "height": 1223,
+        "source": "https://commons.wikimedia.org/wiki/File:Hampstead_Theatre_in_2010.jpg",
+        "kind": "contextual photograph"
+      }
+    },
+    {
+      "title": "Shakespeare’s Cousin enters its final week at the White Bear",
+      "description": "Jonathan Moore’s new play about Robert Southwell runs in Kennington until 28th November.",
+      "url": "/london-fringe-theatre/shakespeares-cousin-white-bear-2026.html",
+      "date": "2026-11-25",
+      "category": "Production preview",
+      "source": "https://www.whitebeartheatre.co.uk/whatson/shakespeare%E2%80%99s-cousin",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.whitebeartheatre.co.uk/whatson/shakespeare%E2%80%99s-cousin"
+        },
+        {
+          "label": "Further reporting and credits",
+          "url": "https://theatreweekly.com/interview-jonathan-moore-on-shakespeares-cousin-at-white-bear-theatre/"
+        },
+        {
+          "label": "Further reporting and credits",
+          "url": "https://theatrereviews.design/shakespeares-cousin/"
+        }
+      ],
+      "subjectKey": "production:shakespeares-cousin-white-bear-2026",
+      "developmentKey": "world-premiere-run",
+      "storyKey": "production:shakespeares-cousin-white-bear-2026/world-premiere-run",
+      "venue": "White Bear Theatre",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-28",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/The_White_Bear_-_geograph.org.uk_-_7259094.jpg",
+        "alt": "The White Bear in Kennington, photographed in 2022; venue photograph",
+        "credit": "JThomas",
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "width": 610,
+        "height": 800,
+        "source": "https://commons.wikimedia.org/wiki/File:The_White_Bear_-_geograph.org.uk_-_7259094.jpg",
+        "kind": "contextual photograph"
+      }
+    },
+    {
+      "title": "It’s a Wonderful Life goes on air at Jermyn Street Theatre",
+      "description": "Jessica Lazar’s radio-on-stage production runs from 19th November to 3rd January, with six multi-roling performers.",
+      "url": "/london-fringe-theatre/its-a-wonderful-life-jermyn-street-2026.html",
+      "date": "2026-11-25",
+      "category": "Production preview",
+      "source": "https://www.jermynstreettheatre.co.uk/show/its-a-wonderful-life/",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.jermynstreettheatre.co.uk/show/its-a-wonderful-life/"
+        }
+      ],
+      "subjectKey": "production:its-a-wonderful-life-jermyn-2026",
+      "developmentKey": "radio-stage-run",
+      "storyKey": "production:its-a-wonderful-life-jermyn-2026/radio-stage-run",
+      "venue": "Jermyn Street Theatre",
+      "startDate": "2026-11-19",
+      "endDate": "2027-01-03",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Jermyn_Street_Theatre.JPG",
+        "alt": "Jermyn Street Theatre entrance in 2008; archive venue photograph",
+        "credit": "ExpressingYourself (Wikimedia Commons)",
+        "label": "Public domain",
+        "license": "https://commons.wikimedia.org/wiki/File:Jermyn_Street_Theatre.JPG",
+        "width": 432,
+        "height": 648,
+        "source": "https://commons.wikimedia.org/wiki/File:Jermyn_Street_Theatre.JPG",
+        "kind": "contextual photograph"
+      }
+    },
+    {
+      "title": "Intermission Youth puts Julius Caesar in a modern classroom at Omnibus",
+      "description": "Darren Raymond’s play, directed by Stephanie Badaru, continues at the Clapham theatre until 5th December.",
+      "url": "/london-fringe-theatre/julius-caesar-remixed-omnibus-2026.html",
+      "date": "2026-11-25",
+      "category": "Production preview",
+      "source": "https://www.omnibus-clapham.org/whatson/julius-caesar-remixed",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.omnibus-clapham.org/whatson/julius-caesar-remixed"
+        }
+      ],
+      "subjectKey": "production:julius-caesar-remixed-omnibus-2026",
+      "developmentKey": "london-run",
+      "storyKey": "production:julius-caesar-remixed-omnibus-2026/london-run",
+      "venue": "Omnibus Theatre",
+      "startDate": "2026-11-11",
+      "endDate": "2026-12-05",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Clapham_Old_Town_-_geograph.org.uk_-_6977697.jpg/960px-Clapham_Old_Town_-_geograph.org.uk_-_6977697.jpg",
+        "alt": "Clapham Old Town, photographed in 2021; neighbourhood context, not the production",
+        "credit": "Stefan Czapski",
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "width": 960,
+        "height": 720,
+        "source": "https://commons.wikimedia.org/wiki/File:Clapham_Old_Town_-_geograph.org.uk_-_6977697.jpg",
+        "kind": "contextual photograph"
+      }
     }
   ]
 }

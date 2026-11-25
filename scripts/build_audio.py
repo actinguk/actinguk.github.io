@@ -104,34 +104,25 @@ def render(pipeline, parts, target):
 
 def attach(soup, hero, path, seconds):
     block=soup.new_tag("section",attrs={"class":"article-audio","aria-label":"Article narration"})
-    label=soup.new_tag("p",attrs={"class":"article-audio-label"})
-    label.string="Listen to this article"
-    desc=soup.new_tag("span",attrs={"class":"article-audio-description"})
-    desc.string=f"AI narration · {int(seconds)//60}:{int(seconds)%60:02d}"
-    audio=soup.new_tag("audio",attrs={"controls":"","preload":"none","aria-label":"Listen to this article"})
+    audio=soup.new_tag("audio",attrs={"controls":"","preload":"metadata","aria-label":"Listen to this article"})
     source=soup.new_tag("source",attrs={"src":path,"type":"audio/mpeg"})
     audio.append(source)
     link=soup.new_tag("a",href=path)
     link.string="Listen to the MP3"
     audio.append(link)
-    speed=soup.new_tag("label",attrs={"class":"article-audio-speed"})
-    speed.append("Playback speed ")
-    select=soup.new_tag("select",attrs={"aria-label":"Playback speed"})
-    for rate in (0.75,1,1.25,1.5,2):
-        opt=soup.new_tag("option",value=str(rate))
-        if rate==1: opt["selected"]=""
-        opt.string=f"{rate:g}×"
-        select.append(opt)
-    speed.append(select)
-    block.extend([label,desc,audio,speed])
-    hero.insert_after(block)
-    style=soup.new_tag("link",rel="stylesheet",href="/assets/article-audio.css?v=20261125-1")
+    block.append(audio)
+    headline=hero.find("h1")
+    if headline:
+        headline.insert_after(block)
+    else:
+        hero.insert_after(block)
+    style=soup.new_tag("link",rel="stylesheet",href="/assets/article-audio.css?v=20261125-2")
     soup.head.append(style)
     script=soup.select_one('script[src="/assets/article-audio.js"]')
     if script:
-        script["src"]="/assets/article-audio.js?v=20261125-1"
+        script["src"]="/assets/article-audio.js?v=20261125-2"
     else:
-        soup.body.append(soup.new_tag("script",src="/assets/article-audio.js?v=20261125-1",defer=""))
+        soup.body.append(soup.new_tag("script",src="/assets/article-audio.js?v=20261125-2",defer=""))
 
 def main():
     parser=argparse.ArgumentParser()

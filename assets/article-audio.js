@@ -12,15 +12,15 @@ document.querySelectorAll(".article-audio").forEach((player, index) => {
   const button = document.createElement("button");
   button.type = "button";
   button.className = "article-audio-toggle";
-  button.setAttribute("aria-label", "Listen to this article");
-  button.setAttribute("title", "Listen to this article");
-  button.setAttribute("aria-expanded", "false");
+  button.setAttribute("aria-label", "Hide article audio player");
+  button.setAttribute("title", "Hide article audio player");
+  button.setAttribute("aria-expanded", "true");
   player.id = player.id || "article-audio-" + (index + 1);
   button.setAttribute("aria-controls", player.id);
   button.innerHTML = '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9v6h4l5 4V5L7 9H3z"/><path d="M16 9a4 4 0 0 1 0 6m3-9a8 8 0 0 1 0 12"/></svg>';
   headline.append(" ", button);
   headline.after(player);
-  player.hidden = true;
+  player.hidden = false;
   button.addEventListener("click", () => {
     const opening = player.hidden;
     player.hidden = !opening;

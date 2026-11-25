@@ -32,7 +32,7 @@ All new HTML pages must retain the shared root favicon and manifest links. The P
 
 ## Visual design
 
-Use dark-grey text for interactive controls, including mobile buttons. Do not add decorative northeast/southeast arrow symbols (↗, ↘) to links, route cards or buttons. Keep link text and destinations intact. Do not reintroduce the directory shortlist, saved filter, heart controls, or resource-saving copy. Article audio uses the shared headline speaker control; preserve the MP3 URLs and existing narration, and never regenerate audio for a visual-only change.
+Use dark-grey text for interactive controls, including mobile buttons. Do not add decorative northeast/southeast arrow symbols (↗, ↘) to links, route cards or buttons. Keep link text and destinations intact. Do not reintroduce the directory shortlist, saved filter, heart controls, or resource-saving copy. Article audio players must be visible immediately on page load, without autoplay. The shared headline speaker control may collapse or reopen the player; preserve the MP3 URLs and existing narration, and never regenerate audio for a visual-only change.
 
 Keep the same horizontal page inset for masthead, main content and footer: 48px desktop, 24px at widths up to 950px, and 17px at widths up to 650px. Use the shared --site-gutter CSS variable and padding-inline; mobile navigation may wrap but must never override the horizontal inset or touch the viewport edge.
 

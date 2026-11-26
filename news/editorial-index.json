@@ -1635,6 +1635,138 @@
         "source": "https://commons.wikimedia.org/wiki/File:Clapham_Old_Town_-_geograph.org.uk_-_6977697.jpg",
         "kind": "contextual photograph"
       }
+    },
+    {
+      "title": "Sheffield’s Crucible opens Singin’ in the Rain with Grant Almirall",
+      "description": "Jonathan Church directs the musical’s Christmas engagement, beginning on 26th November and running to 16th January.",
+      "url": "/news/singin-in-the-rain-sheffield-crucible-2026.html",
+      "date": "2026-11-26",
+      "category": "Theatre production",
+      "source": "https://www.sheffieldtheatres.co.uk/news/cast-announced-for-singin-in-the-rain",
+      "sources": [
+        {
+          "label": "Official production or announcement",
+          "url": "https://www.sheffieldtheatres.co.uk/news/cast-announced-for-singin-in-the-rain"
+        },
+        {
+          "label": "Further information",
+          "url": "https://www.sheffieldtheatres.co.uk/events/singin-in-the-rain-2026"
+        }
+      ],
+      "subjectKey": "production:singin-in-the-rain-sheffield-2026",
+      "developmentKey": "opening",
+      "storyKey": "production:singin-in-the-rain-sheffield-2026/opening",
+      "venue": "Crucible Theatre",
+      "startDate": "2026-11-26",
+      "endDate": "2027-01-16",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Starlight Express rolls into cinemas from Wembley",
+      "description": "Brett Sullivan’s film of the London stage revival receives its international cinema release on 26th November.",
+      "url": "/news/starlight-express-cinema-release-november-2026.html",
+      "date": "2026-11-26",
+      "category": "Screen and theatre",
+      "source": "https://www.lwentertainment.com/news/new-trailer-for-starlight-express---live-on-stage-drops",
+      "sources": [
+        {
+          "label": "Official production or announcement",
+          "url": "https://www.lwentertainment.com/news/new-trailer-for-starlight-express---live-on-stage-drops"
+        },
+        {
+          "label": "Further information",
+          "url": "https://www.myvue.com/film/andrew-lloyd-webbers-starlight-express---live-on-stage"
+        }
+      ],
+      "subjectKey": "production:starlight-express-wembley-2024",
+      "developmentKey": "cinema-release-2026",
+      "storyKey": "production:starlight-express-wembley-2024/cinema-release-2026",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Sanjeev Bhaskar joins the BFI as archive ambassador",
+      "description": "The actor’s appointment on 19th November accompanies a preservation project for more than 10,000 hours of breakfast television.",
+      "url": "/news/sanjeev-bhaskar-bfi-ambassador-tv-am-archive-2026.html",
+      "date": "2026-11-26",
+      "category": "Screen heritage",
+      "source": "https://www.bfi.org.uk/news/sanjeev-bhaskar-bfi-ambassador",
+      "sources": [
+        {
+          "label": "Official production or announcement",
+          "url": "https://www.bfi.org.uk/news/sanjeev-bhaskar-bfi-ambassador"
+        }
+      ],
+      "subjectKey": "person:sanjeev-bhaskar-bfi-2026",
+      "developmentKey": "ambassador-appointment",
+      "storyKey": "person:sanjeev-bhaskar-bfi-2026/ambassador-appointment",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Mark McAuley brings Gogol’s Diary of a Mad Man to the Old Red Lion",
+      "description": "The Edinburgh Fringe transfer plays six performances in Islington from 24th to 28th November.",
+      "url": "/london-fringe-theatre/diary-of-a-mad-man-old-red-lion-2026.html",
+      "date": "2026-11-26",
+      "category": "Production preview",
+      "source": "https://www.markmcauley.com/diaryofamadman",
+      "sources": [
+        {
+          "label": "Official production or announcement",
+          "url": "https://www.markmcauley.com/diaryofamadman"
+        }
+      ],
+      "subjectKey": "production:diary-of-a-mad-man-old-red-lion-2026",
+      "developmentKey": "london-transfer",
+      "storyKey": "production:diary-of-a-mad-man-old-red-lion-2026/london-transfer",
+      "venue": "Old Red Lion Theatre",
+      "startDate": "2026-11-24",
+      "endDate": "2026-11-28",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Mary Bennet takes the lead in Park Theatre’s Christmas at Pemberley",
+      "description": "Sarah Meadows directs the UK premiere of Lauren Gunderson and Margot Melcon’s Austen sequel from 2nd December.",
+      "url": "/london-fringe-theatre/miss-bennet-christmas-pemberley-park-theatre-2026.html",
+      "date": "2026-11-26",
+      "category": "Production preview",
+      "source": "https://parktheatre.co.uk/events/miss-bennet-christmas-at-pemberley/",
+      "sources": [
+        {
+          "label": "Official production or announcement",
+          "url": "https://parktheatre.co.uk/events/miss-bennet-christmas-at-pemberley/"
+        }
+      ],
+      "subjectKey": "production:miss-bennet-park-2026",
+      "developmentKey": "uk-premiere-preview",
+      "storyKey": "production:miss-bennet-park-2026/uk-premiere-preview",
+      "venue": "Park Theatre",
+      "startDate": "2026-12-02",
+      "endDate": "2027-01-10",
+      "imageStatus": "No cleared image used"
+    },
+    {
+      "title": "Hathaleen concludes its Greenwich Theatre studio run",
+      "description": "Louis Linsey’s play, developed from his experiences in the West Bank, reaches its final scheduled performance on 26th November.",
+      "url": "/london-fringe-theatre/hathaleen-greenwich-theatre-louis-linsey-2026.html",
+      "date": "2026-11-26",
+      "category": "Production preview",
+      "source": "https://greenwichtheatre.org.uk/events/hathaleen-the-unexpected-journey-to-palestine/",
+      "sources": [
+        {
+          "label": "Official production or announcement",
+          "url": "https://greenwichtheatre.org.uk/events/hathaleen-the-unexpected-journey-to-palestine/"
+        },
+        {
+          "label": "Further information",
+          "url": "https://camdenfringe.com/events/hathaleen-the-unexpected-journey-to-palestine/"
+        }
+      ],
+      "subjectKey": "production:hathaleen-greenwich-2026",
+      "developmentKey": "studio-run-closing",
+      "storyKey": "production:hathaleen-greenwich-2026/studio-run-closing",
+      "venue": "Greenwich Theatre Studio",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-26",
+      "imageStatus": "No cleared image used"
     }
   ]
 }

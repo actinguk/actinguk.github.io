@@ -1659,7 +1659,17 @@
       "venue": "Crucible Theatre",
       "startDate": "2026-11-26",
       "endDate": "2027-01-16",
-      "imageStatus": "No cleared image used"
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Sheffield%27s_Crucible_Theatre_at_night.jpg/960px-Sheffield%27s_Crucible_Theatre_at_night.jpg",
+        "credit": "Mark Richards",
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "width": 960,
+        "height": 648,
+        "alt": "Sheffield’s Crucible Theatre at night in 2011; contextual archive photograph",
+        "source": "https://commons.wikimedia.org/wiki/File:Sheffield%27s_Crucible_Theatre_at_night.jpg",
+        "kind": "contextual photograph"
+      }
     },
     {
       "title": "Starlight Express rolls into cinemas from Wembley",
@@ -1681,7 +1691,17 @@
       "subjectKey": "production:starlight-express-wembley-2024",
       "developmentKey": "cinema-release-2026",
       "storyKey": "production:starlight-express-wembley-2024/cinema-release-2026",
-      "imageStatus": "No cleared image used"
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Troubadour_Wembley_Park_Theatre.jpg/960px-Troubadour_Wembley_Park_Theatre.jpg",
+        "credit": "Public Fan",
+        "label": "CC0 1.0",
+        "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "width": 960,
+        "height": 540,
+        "alt": "Troubadour Wembley Park Theatre in 2019, before the Starlight Express revival",
+        "source": "https://commons.wikimedia.org/wiki/File:Troubadour_Wembley_Park_Theatre.jpg",
+        "kind": "contextual photograph"
+      }
     },
     {
       "title": "Sanjeev Bhaskar joins the BFI as archive ambassador",
@@ -1699,7 +1719,17 @@
       "subjectKey": "person:sanjeev-bhaskar-bfi-2026",
       "developmentKey": "ambassador-appointment",
       "storyKey": "person:sanjeev-bhaskar-bfi-2026/ambassador-appointment",
-      "imageStatus": "No cleared image used"
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Sanjeev_Bhaskar_Asian_Awards_2015.jpg",
+        "credit": "TheAsianAwards",
+        "label": "CC BY 3.0",
+        "license": "https://creativecommons.org/licenses/by/3.0/",
+        "width": 400,
+        "height": 400,
+        "alt": "Sanjeev Bhaskar at the Asian Awards in 2015; archival video still",
+        "source": "https://commons.wikimedia.org/wiki/File:Sanjeev_Bhaskar_Asian_Awards_2015.jpg",
+        "kind": "contextual photograph"
+      }
     },
     {
       "title": "Mark McAuley brings Gogol’s Diary of a Mad Man to the Old Red Lion",
@@ -1720,7 +1750,17 @@
       "venue": "Old Red Lion Theatre",
       "startDate": "2026-11-24",
       "endDate": "2026-11-28",
-      "imageStatus": "No cleared image used"
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/The_Old_Red_Lion_Theatre%2C_st_John_Street._-_geograph.org.uk_-_110042.jpg",
+        "credit": "Robin Hall",
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "width": 482,
+        "height": 640,
+        "alt": "Old Red Lion Theatre pub in Islington in 2005; archive venue photograph",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Old_Red_Lion_Theatre,_st_John_Street._-_geograph.org.uk_-_110042.jpg",
+        "kind": "contextual photograph"
+      }
     },
     {
       "title": "Mary Bennet takes the lead in Park Theatre’s Christmas at Pemberley",
@@ -1741,7 +1781,17 @@
       "venue": "Park Theatre",
       "startDate": "2026-12-02",
       "endDate": "2027-01-10",
-      "imageStatus": "No cleared image used"
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Park_Theatre%2C_Finsbury_Park_-_geograph.org.uk_-_5919057.jpg/500px-Park_Theatre%2C_Finsbury_Park_-_geograph.org.uk_-_5919057.jpg",
+        "credit": "Jim Osley",
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "width": 500,
+        "height": 811,
+        "alt": "Park Theatre in Finsbury Park in 2018; archive venue photograph",
+        "source": "https://commons.wikimedia.org/wiki/File:Park_Theatre,_Finsbury_Park_-_geograph.org.uk_-_5919057.jpg",
+        "kind": "contextual photograph"
+      }
     },
     {
       "title": "Hathaleen concludes its Greenwich Theatre studio run",
@@ -1766,7 +1816,17 @@
       "venue": "Greenwich Theatre Studio",
       "startDate": "2026-11-18",
       "endDate": "2026-11-26",
-      "imageStatus": "No cleared image used"
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Greenwich_Theatre_-_geograph.org.uk_-_2752317.jpg/500px-Greenwich_Theatre_-_geograph.org.uk_-_2752317.jpg",
+        "credit": "Colin Smith",
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "width": 500,
+        "height": 667,
+        "alt": "Greenwich Theatre in 2012; archive venue photograph",
+        "source": "https://commons.wikimedia.org/wiki/File:Greenwich_Theatre_-_geograph.org.uk_-_2752317.jpg",
+        "kind": "contextual photograph"
+      }
     }
   ]
 }

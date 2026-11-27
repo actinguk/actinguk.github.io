@@ -116,228 +116,6 @@
   },
   "attempts": [
     {
-      "at": "2026-11-27T15:23:11.324Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/dick-whittington-kings-head-pantomime-2026.html"
-    },
-    {
-      "at": "2026-11-27T15:23:11.326Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/sorcerers-apprentice-home-manchester-premiere.html"
-    },
-    {
-      "at": "2026-11-27T15:23:56.509Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/fringe-sound-design-silence.html"
-    },
-    {
-      "at": "2026-11-27T15:23:56.510Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/ai-voice-consent-actors-contracts.html"
-    },
-    {
-      "at": "2026-11-27T15:23:56.511Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/self-tape-reader-performance-partner.html"
-    },
-    {
-      "at": "2026-11-27T15:23:56.511Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/acting-agent-meeting-questions.html"
-    },
-    {
-      "at": "2026-11-27T15:23:56.516Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/fringe-theatre-audience-proximity.html"
-    },
-    {
-      "at": "2026-11-27T15:23:56.541Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/fringe-rehearsal-budget-time.html"
-    },
-    {
-      "at": "2026-11-27T15:23:56.541Z",
-      "service": "IndexNow",
-      "status": "queued",
-      "detail": 52
-    },
-    {
-      "at": "2026-11-27T16:26:59.772Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/starlight-express-cinema-release-november-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:26:59.773Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/singin-in-the-rain-sheffield-crucible-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:26:59.790Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/diary-of-a-mad-man-old-red-lion-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:26:59.866Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/hathaleen-greenwich-theatre-louis-linsey-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:26:59.872Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/sanjeev-bhaskar-bfi-ambassador-tv-am-archive-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:26:59.876Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/miss-bennet-christmas-pemberley-park-theatre-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:27:45.453Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/shakespeares-cousin-white-bear-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:27:45.455Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/punch-uk-ireland-tour-bailey-west-2027.html"
-    },
-    {
-      "at": "2026-11-27T16:27:45.458Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/samantha-morton-bfi-fellowship-2027.html"
-    },
-    {
-      "at": "2026-11-27T16:27:45.458Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/jumpers-hampstead-rhea-norwood-james-corrigan-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:27:45.582Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/julius-caesar-remixed-omnibus-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:27:45.582Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/its-a-wonderful-life-jermyn-street-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:28:30.799Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/pink-rabbit-soho-theatre-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:28:30.799Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/grinch-leeds-playhouse-joel-montague-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:28:30.801Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/after-today-hope-theatre-bill-grundy-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:28:30.802Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/traverse-theatre-spring-2027-programme.html"
-    },
-    {
-      "at": "2026-11-27T16:28:30.803Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/whatsonstage-awards-2027-nominations-close.html"
-    },
-    {
-      "at": "2026-11-27T16:28:30.804Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/majenin-theatre503-marena-riyad-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:29:16.048Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/pinocchio-watermill-theatre-cast-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:29:16.050Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/history-boys-west-end-open-casting-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:29:16.173Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/goblin-park-theatre-derek-mitchell-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:29:16.174Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/phantom-west-end-new-cast-november-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:29:16.181Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/silence-and-noise-park-theatre-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:29:16.182Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/ugly-one-arcola-ramin-gray-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:30:01.291Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/dick-whittington-kings-head-pantomime-2026.html"
-    },
-    {
-      "at": "2026-11-27T16:30:01.291Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/bifa-2026-elsinore-nominations.html"
-    },
-    {
-      "at": "2026-11-27T16:30:01.295Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/news/sorcerers-apprentice-home-manchester-premiere.html"
-    },
-    {
-      "at": "2026-11-27T16:30:01.303Z",
-      "service": "live",
-      "status": "unconfirmed",
-      "detail": "https://actinguk.com/london-fringe-theatre/fly-you-fools-southwark-playhouse-2026.html"
-    },
-    {
       "at": "2026-11-27T16:30:01.303Z",
       "service": "live",
       "status": "unconfirmed",
@@ -1311,6 +1089,228 @@
     },
     {
       "at": "2026-11-27T20:23:29.345Z",
+      "service": "IndexNow",
+      "status": "queued",
+      "detail": 58
+    },
+    {
+      "at": "2026-11-27T21:17:03.529Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/equity-itc-minimum-rates-2027-2030.html"
+    },
+    {
+      "at": "2026-11-27T21:17:03.531Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/miss-saigon-west-end-principal-cast-2027.html"
+    },
+    {
+      "at": "2026-11-27T21:17:03.544Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/revolver-emily-woof-soho-theatre-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:17:03.570Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/nero-southwark-playhouse-elephant-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:17:03.604Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/private-jones-southwark-playhouse-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:17:03.695Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/in-pieces-other-palace-cast-2027.html"
+    },
+    {
+      "at": "2026-11-27T21:17:49.355Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/starlight-express-cinema-release-november-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:17:49.405Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/sanjeev-bhaskar-bfi-ambassador-tv-am-archive-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:17:49.498Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/miss-bennet-christmas-pemberley-park-theatre-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:17:49.512Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/singin-in-the-rain-sheffield-crucible-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:17:49.579Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/hathaleen-greenwich-theatre-louis-linsey-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:17:49.652Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/diary-of-a-mad-man-old-red-lion-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:18:35.047Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/punch-uk-ireland-tour-bailey-west-2027.html"
+    },
+    {
+      "at": "2026-11-27T21:18:35.070Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/shakespeares-cousin-white-bear-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:18:35.168Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/samantha-morton-bfi-fellowship-2027.html"
+    },
+    {
+      "at": "2026-11-27T21:18:35.209Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/julius-caesar-remixed-omnibus-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:18:35.257Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/its-a-wonderful-life-jermyn-street-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:18:35.391Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/jumpers-hampstead-rhea-norwood-james-corrigan-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:19:20.877Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/whatsonstage-awards-2027-nominations-close.html"
+    },
+    {
+      "at": "2026-11-27T21:19:20.891Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/pink-rabbit-soho-theatre-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:19:20.927Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/traverse-theatre-spring-2027-programme.html"
+    },
+    {
+      "at": "2026-11-27T21:19:20.943Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/grinch-leeds-playhouse-joel-montague-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:19:20.964Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/majenin-theatre503-marena-riyad-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:19:20.984Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/after-today-hope-theatre-bill-grundy-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:20:06.301Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/history-boys-west-end-open-casting-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:20:06.350Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/silence-and-noise-park-theatre-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:20:06.418Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/goblin-park-theatre-derek-mitchell-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:20:06.527Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/ugly-one-arcola-ramin-gray-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:20:06.603Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/phantom-west-end-new-cast-november-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:20:06.689Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/pinocchio-watermill-theatre-cast-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:20:52.101Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/bifa-2026-elsinore-nominations.html"
+    },
+    {
+      "at": "2026-11-27T21:20:52.103Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/fly-you-fools-southwark-playhouse-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:20:52.128Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/sorcerers-apprentice-home-manchester-premiere.html"
+    },
+    {
+      "at": "2026-11-27T21:20:52.175Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/human-voice-cockpit-elliot-pritchard-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:20:52.178Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/london-fringe-theatre/dick-whittington-kings-head-pantomime-2026.html"
+    },
+    {
+      "at": "2026-11-27T21:20:52.380Z",
+      "service": "live",
+      "status": "unconfirmed",
+      "detail": "https://actinguk.com/news/elsinore-us-release-uk-january-2027.html"
+    },
+    {
+      "at": "2026-11-27T21:20:52.380Z",
       "service": "IndexNow",
       "status": "queued",
       "detail": 58

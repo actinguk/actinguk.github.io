@@ -996,6 +996,81 @@
       "developmentKey": "studio-run-closing",
       "venue": "Greenwich Theatre Studio",
       "status": "published"
+    },
+    {
+      "url": "/news/equity-itc-minimum-rates-2027-2030.html",
+      "date": "2026-11-27",
+      "title": "Equity and ITC agree three years of minimum pay increases",
+      "description": "Independent theatre’s new agreement sets minimum weekly rates from April 2027, alongside plans for ethical casting and AI policies.",
+      "category": "Working conditions",
+      "source": "https://www.equity.org.uk/news/2026/new-equity-itc-agreement-announced",
+      "storyKey": "agreement:equity-itc-2027-2030/minimum-rates-agreed",
+      "subjectKey": "agreement:equity-itc-2027-2030",
+      "developmentKey": "minimum-rates-agreed",
+      "status": "published"
+    },
+    {
+      "url": "/news/miss-saigon-west-end-principal-cast-2027.html",
+      "date": "2026-11-27",
+      "title": "Julianne Pundan to make her West End debut in Miss Saigon",
+      "description": "The principal cast announced on 26th November reunites touring performers for the musical’s return to the Prince Edward Theatre.",
+      "category": "Casting news",
+      "source": "https://www.cameronmackintosh.com/news/view/initial-principal-casting-announced-for-miss-saigon",
+      "storyKey": "production:miss-saigon-prince-edward-2027/principal-cast",
+      "subjectKey": "production:miss-saigon-prince-edward-2027",
+      "developmentKey": "principal-cast",
+      "status": "published"
+    },
+    {
+      "url": "/news/in-pieces-other-palace-cast-2027.html",
+      "date": "2026-11-27",
+      "title": "In Pieces assembles its cast for a London stage production",
+      "description": "Joey Contreras’s musical follows six interlocking stories of love at The Other Palace from 6th February 2027.",
+      "category": "Casting news",
+      "source": "https://www.inpiecesmusical.com/",
+      "storyKey": "production:in-pieces-other-palace-2027/full-cast",
+      "subjectKey": "production:in-pieces-other-palace-2027",
+      "developmentKey": "full-cast",
+      "status": "published"
+    },
+    {
+      "url": "/london-fringe-theatre/nero-southwark-playhouse-elephant-2026.html",
+      "date": "2026-11-27",
+      "title": "NERO puts an emperor’s appetite for performance centre stage",
+      "description": "Andrew Barth Feldman leads Steven Sater and Duncan Sheik’s musical at Southwark Playhouse Elephant until 5th December.",
+      "category": "Production preview",
+      "source": "https://southwarkplayhouse.co.uk/productions/nero/",
+      "storyKey": "production:nero-southwark-elephant-2026/current-run",
+      "subjectKey": "production:nero-southwark-elephant-2026",
+      "developmentKey": "current-run",
+      "venue": "Southwark Playhouse Elephant",
+      "status": "published"
+    },
+    {
+      "url": "/london-fringe-theatre/revolver-emily-woof-soho-theatre-2026.html",
+      "date": "2026-11-27",
+      "title": "Emily Woof’s REVOLVER moves between Beatlemania and the present",
+      "description": "Hamish McColl directs Woof’s Edinburgh transfer at Soho Theatre until 5th December.",
+      "category": "Production preview",
+      "source": "https://sohotheatre.com/events/revolver-2/",
+      "storyKey": "production:revolver-soho-theatre-2026/london-run",
+      "subjectKey": "production:revolver-soho-theatre-2026",
+      "developmentKey": "london-run",
+      "venue": "Soho Theatre",
+      "status": "published"
+    },
+    {
+      "url": "/london-fringe-theatre/private-jones-southwark-playhouse-2026.html",
+      "date": "2026-11-27",
+      "title": "Private Jones brings signed language and sound together on stage",
+      "description": "Rose Ayling-Ellis and James Spence feature in Marshall Pailet’s musical opening at Southwark Playhouse Elephant on 14th December.",
+      "category": "Production preview",
+      "source": "https://southwarkplayhouse.co.uk/productions/private-jones/",
+      "storyKey": "production:private-jones-southwark-elephant-2026/london-preview",
+      "subjectKey": "production:private-jones-southwark-elephant-2026",
+      "developmentKey": "london-preview",
+      "venue": "Southwark Playhouse Elephant",
+      "status": "published"
     }
   ],
   "removed": [

@@ -1827,6 +1827,114 @@
         "source": "https://commons.wikimedia.org/wiki/File:Greenwich_Theatre_-_geograph.org.uk_-_2752317.jpg",
         "kind": "contextual photograph"
       }
+    },
+    {
+      "url": "/news/equity-itc-minimum-rates-2027-2030.html",
+      "date": "2026-11-27",
+      "title": "Equity and ITC agree three years of minimum pay increases",
+      "description": "Independent theatre’s new agreement sets minimum weekly rates from April 2027, alongside plans for ethical casting and AI policies.",
+      "category": "Working conditions",
+      "source": "https://www.equity.org.uk/news/2026/new-equity-itc-agreement-announced",
+      "subjectKey": "agreement:equity-itc-2027-2030",
+      "developmentKey": "minimum-rates-agreed",
+      "storyKey": "agreement:equity-itc-2027-2030/minimum-rates-agreed"
+    },
+    {
+      "url": "/news/miss-saigon-west-end-principal-cast-2027.html",
+      "date": "2026-11-27",
+      "title": "Julianne Pundan to make her West End debut in Miss Saigon",
+      "description": "The principal cast announced on 26th November reunites touring performers for the musical’s return to the Prince Edward Theatre.",
+      "category": "Casting news",
+      "source": "https://www.cameronmackintosh.com/news/view/initial-principal-casting-announced-for-miss-saigon",
+      "subjectKey": "production:miss-saigon-prince-edward-2027",
+      "developmentKey": "principal-cast",
+      "storyKey": "production:miss-saigon-prince-edward-2027/principal-cast",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Prince_Edward_Theatre_-_geograph.org.uk_-_2172990.jpg/960px-Prince_Edward_Theatre_-_geograph.org.uk_-_2172990.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Prince_Edward_Theatre_-_geograph.org.uk_-_2172990.jpg",
+        "credit": "Philip Halling",
+        "alt": "Prince Edward Theatre in 2010, during a different production; archive venue photograph",
+        "width": 960,
+        "height": 720,
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "kind": "contextual photograph"
+      }
+    },
+    {
+      "url": "/news/in-pieces-other-palace-cast-2027.html",
+      "date": "2026-11-27",
+      "title": "In Pieces assembles its cast for a London stage production",
+      "description": "Joey Contreras’s musical follows six interlocking stories of love at The Other Palace from 6th February 2027.",
+      "category": "Casting news",
+      "source": "https://www.inpiecesmusical.com/",
+      "subjectKey": "production:in-pieces-other-palace-2027",
+      "developmentKey": "full-cast",
+      "storyKey": "production:in-pieces-other-palace-2027/full-cast",
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/St_James_Theatre%2C_Palace_Street.jpg/500px-St_James_Theatre%2C_Palace_Street.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:St_James_Theatre,_Palace_Street.jpg",
+        "credit": "PAUL FARMER",
+        "alt": "The Other Palace in 2012, when named St James Theatre; archive venue photograph",
+        "width": 500,
+        "height": 554,
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "kind": "contextual photograph"
+      }
+    },
+    {
+      "url": "/london-fringe-theatre/nero-southwark-playhouse-elephant-2026.html",
+      "date": "2026-11-27",
+      "title": "NERO puts an emperor’s appetite for performance centre stage",
+      "description": "Andrew Barth Feldman leads Steven Sater and Duncan Sheik’s musical at Southwark Playhouse Elephant until 5th December.",
+      "category": "Production preview",
+      "source": "https://southwarkplayhouse.co.uk/productions/nero/",
+      "subjectKey": "production:nero-southwark-elephant-2026",
+      "developmentKey": "current-run",
+      "storyKey": "production:nero-southwark-elephant-2026/current-run",
+      "venue": "Southwark Playhouse Elephant",
+      "startDate": "2026-11-02",
+      "endDate": "2026-12-05"
+    },
+    {
+      "url": "/london-fringe-theatre/revolver-emily-woof-soho-theatre-2026.html",
+      "date": "2026-11-27",
+      "title": "Emily Woof’s REVOLVER moves between Beatlemania and the present",
+      "description": "Hamish McColl directs Woof’s Edinburgh transfer at Soho Theatre until 5th December.",
+      "category": "Production preview",
+      "source": "https://sohotheatre.com/events/revolver-2/",
+      "subjectKey": "production:revolver-soho-theatre-2026",
+      "developmentKey": "london-run",
+      "storyKey": "production:revolver-soho-theatre-2026/london-run",
+      "venue": "Soho Theatre",
+      "startDate": "2026-11-24",
+      "endDate": "2026-12-05",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Soho_Theatre.jpg/960px-Soho_Theatre.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Soho_Theatre.jpg",
+        "credit": "Ewan Munro",
+        "alt": "Soho Theatre on Dean Street in 2012; archive venue photograph",
+        "width": 750,
+        "height": 1000,
+        "label": "CC BY-SA 2.0",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "kind": "contextual photograph"
+      }
+    },
+    {
+      "url": "/london-fringe-theatre/private-jones-southwark-playhouse-2026.html",
+      "date": "2026-11-27",
+      "title": "Private Jones brings signed language and sound together on stage",
+      "description": "Rose Ayling-Ellis and James Spence feature in Marshall Pailet’s musical opening at Southwark Playhouse Elephant on 14th December.",
+      "category": "Production preview",
+      "source": "https://southwarkplayhouse.co.uk/productions/private-jones/",
+      "subjectKey": "production:private-jones-southwark-elephant-2026",
+      "developmentKey": "london-preview",
+      "storyKey": "production:private-jones-southwark-elephant-2026/london-preview",
+      "venue": "Southwark Playhouse Elephant",
+      "startDate": "2026-12-14",
+      "endDate": "2027-01-30"
     }
   ]
 }

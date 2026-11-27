@@ -66,3 +66,58 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/distribute.mjs
+      - name: Independent daily publication quota audit
+        if: always() && github.event_name == 'schedule'
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          from datetime import datetime, time
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          now = datetime.now(ZoneInfo('Europe/London'))
+          if now.time() < time(10, 30):
+              print('Daily publication recovery window still open.')
+              sys.exit(0)
+          today = now.date().isoformat()
+          index = json.loads(Path('news/editorial-index.json').read_text(encoding='utf-8'))['articles']
+          registry = json.loads(Path('content/story-registry.json').read_text(encoding='utf-8'))
+          rows = [r for r in index if r.get('date') == today]
+          published = [r for r in registry['stories'] if r.get('date') == today and r.get('status') == 'published']
+          retired = {r['url'] for r in registry.get('removed', [])}
+          errors = []
+          indexed = {r['url']: r for r in rows}
+          registered = {r['url']: r for r in published}
+          if len(indexed) != len(rows) or len(registered) != len(published):
+              errors.append('Duplicate URL in daily records')
+          if indexed.keys() != registered.keys():
+              errors.append('Editorial index and permanent registry disagree')
+          counts = {'/news/': 0, '/london-fringe-theatre/': 0}
+          for url in sorted(indexed.keys() & registered.keys()):
+              a, b = indexed[url], registered[url]
+              if url in retired or not url.endswith('.html') or '..' in url:
+                  errors.append('Invalid or retired URL: ' + url)
+                  continue
+              if any(a.get(k) != b.get(k) for k in ('date','title','description','source','storyKey','subjectKey','developmentKey')):
+                  errors.append('Registry mismatch: ' + url)
+                  continue
+              if not Path(url.lstrip('/')).is_file():
+                  errors.append('Article HTML missing: ' + url)
+                  continue
+              for prefix in counts:
+                  if url.startswith(prefix):
+                      counts[prefix] += 1
+                      print('Verified committed article:', url)
+                      break
+              else:
+                  errors.append('Unexpected category: ' + url)
+          summary = f"{today}: industry {counts['/news/']}/3, fringe {counts['/london-fringe-theatre/']}/3"
+          print(summary)
+          if any(n != 3 for n in counts.values()):
+              errors.append('Daily quota not met exactly: ' + summary)
+          if errors:
+              for e in errors:
+                  print('::error::' + e)
+              sys.exit(1)
+          print('Daily quota audit passed.')
+          PY

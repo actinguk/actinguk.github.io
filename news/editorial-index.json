@@ -1935,6 +1935,80 @@
       "venue": "Southwark Playhouse Elephant",
       "startDate": "2026-12-14",
       "endDate": "2027-01-30"
+    },
+    {
+      "title": "Curve’s Charlie and the Chocolate Factory puts ensemble craft in the spotlight",
+      "description": "Leicester’s Christmas musical releases its first production photographs, with Jonny Fines leading a company that includes young performers and swings.",
+      "url": "/news/charlie-chocolate-factory-curve-2026.html",
+      "date": "2026-11-28",
+      "category": "Regional theatre",
+      "source": "https://www.whatsonstage.com/news/curves-charlie-and-the-chocolate-factory-musical-revival-releases-first-look-photos_1738424/",
+      "subjectKey": "production:charlie-curve-2026",
+      "developmentKey": "first-look",
+      "storyKey": "production:charlie-curve-2026/first-look"
+    },
+    {
+      "title": "Yana Perrault completes The Greatest Showman’s principal cast",
+      "description": "Disney’s stage adaptation adds Perrault as Anne Wheeler ahead of its Theatre Royal Drury Lane opening in 2027.",
+      "url": "/news/greatest-showman-yana-perrault-casting-2027.html",
+      "date": "2026-11-28",
+      "category": "Casting news",
+      "source": "https://www.whatsonstage.com/news/the-greatest-showman-announces-further-casting-and-unveils-new-portraits_1738375/",
+      "subjectKey": "production:greatest-showman-drury-lane-2027",
+      "developmentKey": "principal-cast",
+      "storyKey": "production:greatest-showman-drury-lane-2027/principal-cast"
+    },
+    {
+      "title": "Orange Tree brings together a Shakespeare repertory company",
+      "description": "Roger Allam and Freddie Fox lead a shared ensemble in King Lear and Richard II, directed by Tom Littler next spring.",
+      "url": "/news/orange-tree-shakespeare-repertory-cast-2027.html",
+      "date": "2026-11-28",
+      "category": "Casting news",
+      "source": "https://www.whatsonstage.com/news/cast-joining-roger-allam-and-freddie-fox-in-rep-productions-of-king-lear-and-richard-ii-confirmed_1738415/",
+      "subjectKey": "production:orange-tree-shakespeare-rep-2027",
+      "developmentKey": "full-cast",
+      "storyKey": "production:orange-tree-shakespeare-rep-2027/full-cast"
+    },
+    {
+      "title": "Fourteen Again brings Victoria Wood’s songs to the Menier",
+      "description": "Ria Jones, Neil Morrissey and Sally Ann Triplett star in Tom MacRae’s musical, now previewing in London.",
+      "url": "/london-fringe-theatre/fourteen-again-menier-victoria-wood-2026.html",
+      "date": "2026-11-28",
+      "category": "Production preview",
+      "source": "https://www.menierchocolatefactory.com/tickets/fourteen-again/",
+      "subjectKey": "production:fourteen-again-menier-2026",
+      "developmentKey": "london-transfer",
+      "storyKey": "production:fourteen-again-menier-2026/london-transfer",
+      "venue": "Menier Chocolate Factory",
+      "startDate": "2026-11-21",
+      "endDate": "2027-02-27"
+    },
+    {
+      "title": "Global Majority turns a job interview into a struggle for power",
+      "description": "Chris Fung’s political thriller at the Bush Theatre features Jeremy Ang Jones and marks Cade Brannan’s professional stage debut.",
+      "url": "/london-fringe-theatre/global-majority-bush-chris-fung-2026.html",
+      "date": "2026-11-28",
+      "category": "Production preview",
+      "source": "https://www.bushtheatre.co.uk/event/global-majority/",
+      "subjectKey": "production:global-majority-bush-2026",
+      "developmentKey": "london-run",
+      "storyKey": "production:global-majority-bush-2026/london-run",
+      "venue": "Bush Theatre",
+      "endDate": "2027-01-16"
+    },
+    {
+      "title": "Elysium travels from Plymouth to the White Bear",
+      "description": "A new two-act play exploring belonging and collective consciousness opens at the Kennington venue on 14th December.",
+      "url": "/london-fringe-theatre/elysium-white-bear-december-2026.html",
+      "date": "2026-11-28",
+      "category": "Production preview",
+      "source": "https://www.whitebeartheatre.co.uk/whatson/elysium",
+      "subjectKey": "production:elysium-white-bear-2026",
+      "developmentKey": "london-premiere",
+      "storyKey": "production:elysium-white-bear-2026/london-premiere",
+      "venue": "White Bear Theatre",
+      "startDate": "2026-12-14",
+      "endDate": "2026-12-23"
     }
   ]
 }
